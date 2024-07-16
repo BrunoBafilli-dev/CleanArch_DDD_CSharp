@@ -12,6 +12,7 @@ namespace Infrastructure.Repositories.Request.Queries
         public static async Task StockAvailabilityAndAdjustment(RequestEntity requestEntity, DataContext _dataContext)
         {
             var items = await LoadItems(requestEntity, _dataContext);
+
             ValidateItems(requestEntity, items);
         }
 
@@ -30,7 +31,7 @@ namespace Infrastructure.Repositories.Request.Queries
             {
                 if (!items.ContainsKey(itemEntity.ItemId))
                 {
-                    throw new ArgumentException("Item não encontrado: " + itemEntity.ItemId);
+                    throw new ArgumentException("Item não encontrado: " + itemEntity.Id);
                 }
 
                 var item = items[itemEntity.ItemId];
@@ -42,12 +43,12 @@ namespace Infrastructure.Repositories.Request.Queries
 
                 if (item.Name != itemEntity.Name)
                 {
-                    throw new ArgumentException("Nome do item incorreto para o item ID " + itemEntity.ItemId);
+                    throw new ArgumentException("Nome do item incorreto para o item ID " + itemEntity.Id);
                 }
 
                 if (item.PriceItem.Price != itemEntity.PriceItem.Price)
                 {
-                    throw new ArgumentException("Preço incorreto para o item ID " + itemEntity.ItemId);
+                    throw new ArgumentException("Preço incorreto para o item ID " + itemEntity.Id);
                 }
             }
         }

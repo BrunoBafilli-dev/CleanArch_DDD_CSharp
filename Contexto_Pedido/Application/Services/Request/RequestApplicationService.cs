@@ -43,13 +43,5 @@ namespace Application.Services.Request
 
             return _requestServiceDependencies._mapper.Map<RequestEntityDTO>(requestEntity);
         }
-
-        public async Task RequestCreatedDispatchEvents(RequestEntity requestEntity)
-        {
-            foreach (var @event in requestEntity.RequestCreatedDomainEvents)
-            {
-                await _requestServiceDependencies._eventBus.Publish(@event);
-            }
-        }
     }
 }

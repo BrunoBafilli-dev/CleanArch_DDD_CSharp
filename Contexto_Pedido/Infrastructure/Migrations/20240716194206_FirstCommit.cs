@@ -34,7 +34,8 @@ namespace Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "NVARCHAR(80)", maxLength: 80, nullable: false),
-                    QuantityItem = table.Column<decimal>(type: "INTEGER", nullable: false),
+                    PriceItem = table.Column<decimal>(type: "DECIMAL(18,2)", nullable: false),
+                    QuantityItem = table.Column<int>(type: "INTEGER", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -60,11 +61,11 @@ namespace Infrastructure.Migrations
                 name: "RequestItem",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", maxLength: 80, nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "NVARCHAR(80)", maxLength: 80, nullable: false),
-                    ItemId = table.Column<int>(type: "INTEGER", maxLength: 80, nullable: false),
-                    QuantityItem = table.Column<decimal>(type: "INTEGER", nullable: false),
+                    ItemId = table.Column<int>(type: "int", nullable: false),
+                    QuantityItem = table.Column<int>(type: "INTEGER", nullable: false),
                     Price = table.Column<decimal>(type: "DECIMAL(18,2)", nullable: false),
                     RequestEntityId = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -85,9 +86,9 @@ namespace Infrastructure.Migrations
                 column: "ClientId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RequestItem_ItemId",
+                name: "IX_RequestItem_Id",
                 table: "RequestItem",
-                column: "ItemId");
+                column: "Id");
 
             migrationBuilder.CreateIndex(
                 name: "IX_RequestItem_RequestEntityId",

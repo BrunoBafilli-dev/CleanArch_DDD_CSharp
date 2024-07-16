@@ -89,11 +89,13 @@ namespace Infrastructure.Migrations
                     b.ToTable("Request", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Request.RequestItemEntities", b =>
+            modelBuilder.Entity("Domain.Entities.Request.RequestItemEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasMaxLength(80)
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("Id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
@@ -101,9 +103,7 @@ namespace Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ItemId")
-                        .HasMaxLength(80)
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("ItemId");
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -116,7 +116,7 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ItemId");
+                    b.HasIndex("Id");
 
                     b.HasIndex("RequestEntityId");
 
@@ -195,7 +195,7 @@ namespace Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Domain.Entities.Request.RequestItemEntities", b =>
+            modelBuilder.Entity("Domain.Entities.Request.RequestItemEntity", b =>
                 {
                     b.HasOne("Domain.Entities.Request.RequestEntity", "RequestEntity")
                         .WithMany("RequestItensEntities")
@@ -206,7 +206,7 @@ namespace Infrastructure.Migrations
                     b.OwnsOne("Domain.ValueObjects.PriceItem", "PriceItem", b1 =>
                         {
                             b1.Property<int>("RequestItemEntityId")
-                                .HasColumnType("int");
+                                .HasColumnType("INTEGER");
 
                             b1.Property<decimal>("Price")
                                 .HasColumnType("DECIMAL(18,2)")
@@ -223,7 +223,7 @@ namespace Infrastructure.Migrations
                     b.OwnsOne("Domain.ValueObjects.QuantityItem", "QuantityItem", b1 =>
                         {
                             b1.Property<int>("RequestItemEntityId")
-                                .HasColumnType("int");
+                                .HasColumnType("INTEGER");
 
                             b1.Property<int>("Quantity")
                                 .HasColumnType("INTEGER")

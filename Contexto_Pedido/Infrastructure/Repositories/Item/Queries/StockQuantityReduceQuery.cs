@@ -49,7 +49,6 @@ namespace Infrastructure.Repositories.Item.Queries
                     item.StockReduceQuantity(requestItem.QuantityItem.Quantity);
                 }
             }
-            await dataContext.SaveChangesAsync();
         }
     }
 

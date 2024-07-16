@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240715162456_FirstCommit")]
-    partial class FirstCommit
+    [Migration("20240716200219_FirstCommit4")]
+    partial class FirstCommit4
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -96,7 +96,9 @@ namespace Infrastructure.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasMaxLength(80)
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("Id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
@@ -104,9 +106,7 @@ namespace Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ItemId")
-                        .HasMaxLength(80)
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("ItemId");
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -119,7 +119,7 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ItemId");
+                    b.HasIndex("Id");
 
                     b.HasIndex("RequestEntityId");
 
@@ -157,12 +157,29 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Item.ItemEntity", b =>
                 {
+                    b.OwnsOne("Domain.ValueObjects.PriceItem", "PriceItem", b1 =>
+                        {
+                            b1.Property<int>("ItemEntityId")
+                                .HasColumnType("int");
+
+                            b1.Property<decimal>("Price")
+                                .HasColumnType("DECIMAL(18,2)")
+                                .HasColumnName("PriceItem");
+
+                            b1.HasKey("ItemEntityId");
+
+                            b1.ToTable("Item");
+
+                            b1.WithOwner()
+                                .HasForeignKey("ItemEntityId");
+                        });
+
                     b.OwnsOne("Domain.ValueObjects.QuantityItem", "QuantityItemStock", b1 =>
                         {
                             b1.Property<int>("ItemEntityId")
                                 .HasColumnType("int");
 
-                            b1.Property<decimal>("Quantity")
+                            b1.Property<int>("Quantity")
                                 .HasColumnType("INTEGER")
                                 .HasColumnName("QuantityItem");
 
@@ -173,6 +190,9 @@ namespace Infrastructure.Migrations
                             b1.WithOwner()
                                 .HasForeignKey("ItemEntityId");
                         });
+
+                    b.Navigation("PriceItem")
+                        .IsRequired();
 
                     b.Navigation("QuantityItemStock")
                         .IsRequired();
@@ -186,14 +206,14 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.OwnsOne("Domain.ValueObjects.QuantityItem", "QuantityItem", b1 =>
+                    b.OwnsOne("Domain.ValueObjects.PriceItem", "PriceItem", b1 =>
                         {
                             b1.Property<int>("RequestItemEntityId")
-                                .HasColumnType("int");
+                                .HasColumnType("INTEGER");
 
-                            b1.Property<decimal>("Quantity")
-                                .HasColumnType("INTEGER")
-                                .HasColumnName("QuantityItem");
+                            b1.Property<decimal>("Price")
+                                .HasColumnType("DECIMAL(18,2)")
+                                .HasColumnName("Price");
 
                             b1.HasKey("RequestItemEntityId");
 
@@ -203,14 +223,14 @@ namespace Infrastructure.Migrations
                                 .HasForeignKey("RequestItemEntityId");
                         });
 
-                    b.OwnsOne("Domain.ValueObjects.PriceItem", "PriceItem", b1 =>
+                    b.OwnsOne("Domain.ValueObjects.QuantityItem", "QuantityItem", b1 =>
                         {
                             b1.Property<int>("RequestItemEntityId")
-                                .HasColumnType("int");
+                                .HasColumnType("INTEGER");
 
-                            b1.Property<decimal>("Price")
-                                .HasColumnType("DECIMAL(18,2)")
-                                .HasColumnName("Price");
+                            b1.Property<int>("Quantity")
+                                .HasColumnType("INTEGER")
+                                .HasColumnName("QuantityItem");
 
                             b1.HasKey("RequestItemEntityId");
 

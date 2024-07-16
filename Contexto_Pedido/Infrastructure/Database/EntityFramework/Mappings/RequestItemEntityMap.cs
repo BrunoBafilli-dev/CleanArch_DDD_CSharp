@@ -25,7 +25,7 @@ namespace Infrastructure.Database.EntityFramework.Mappings
                 .UseIdentityColumn();
 
             //Chave estrangeira
-            builder.HasIndex(x => x.ItemId);
+            builder.HasIndex(x => x.Id);
 
             // Propriedades
             builder.Property(x => x.Name)
@@ -36,9 +36,9 @@ namespace Infrastructure.Database.EntityFramework.Mappings
 
 
             // Propriedades
-            builder.Property(x => x.ItemId)
+            builder.Property(x => x.Id)
                 .IsRequired()
-                .HasColumnName("ItemId")
+                .HasColumnName("Id")
                 .HasColumnType("INTEGER")
                 .HasMaxLength(80);
 

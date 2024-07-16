@@ -14,7 +14,7 @@ namespace Domain.Entities.Request
     {
         //Public props
         public string Name { get; private set; }
-        public int ItemId { get; private set; }
+        public int ItemId { get; set; }
         public QuantityItem QuantityItem { get; private set; }
         public PriceItem PriceItem { get; private set; }
         public RequestEntity RequestEntity { get; private set; } //Relationship - EF
