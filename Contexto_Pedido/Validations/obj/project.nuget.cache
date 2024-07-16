@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yJqGVSMl6sY=",
+  "dgSpecHash": "5gw+hJ0d360=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj",
+  "projectFilePath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

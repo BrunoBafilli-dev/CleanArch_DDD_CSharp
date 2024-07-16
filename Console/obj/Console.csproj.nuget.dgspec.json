@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Console\\Console.csproj": {}
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Console\\Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Console\\Console.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Console\\Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Console\\Console.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Console\\Console.csproj",
         "projectName": "Console",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Console\\Console.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Console\\Console.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Console\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,20 +33,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -114,8 +114,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,8 +193,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj"
               }
             }
           }
@@ -239,14 +239,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
         "projectName": "Infrastructure.IOC",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure.IOC\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -268,14 +268,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -324,14 +324,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -353,11 +353,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Application\\Application.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Application.csproj"
               },
-              "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Domain\\Domain.csproj"
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj"
               }
             }
           }
@@ -418,14 +418,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj",
         "projectName": "Validations",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\Validations.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Desafio\\Contexto_Pedido\\Validations\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

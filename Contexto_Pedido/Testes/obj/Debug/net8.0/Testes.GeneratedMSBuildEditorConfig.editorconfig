@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Testes
-build_property.ProjectDir = C:\Users\Bruno\source\repos\Desafio\Contexto_Pedido\Testes\
+build_property.ProjectDir = C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Testes\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
