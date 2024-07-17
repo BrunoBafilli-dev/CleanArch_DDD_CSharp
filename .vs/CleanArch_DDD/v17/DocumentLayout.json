@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\events\\request\\handlers\\createpruducteventsgroup\\updateitemquantitystocknotificationeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\events\\request\\handlers\\createpruducteventsgroup\\updateitemquantitystocknotificationeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\services\\request\\requestapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\services\\request\\requestapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\services\\request\\requestapplicationservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\services\\request\\requestapplicationservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7DB6D1-842C-419D-BD79-5FC67FC79D72}|Contexto_Pedido\\Domain\\Domain.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\domain\\events\\request\\events\\createdrequestdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA7DB6D1-842C-419D-BD79-5FC67FC79D72}|Contexto_Pedido\\Domain\\Domain.csproj|solutionrelative:contexto_pedido\\domain\\events\\request\\events\\createdrequestdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7DB6D1-842C-419D-BD79-5FC67FC79D72}|Contexto_Pedido\\Domain\\Domain.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\domain\\services\\requestdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA7DB6D1-842C-419D-BD79-5FC67FC79D72}|Contexto_Pedido\\Domain\\Domain.csproj|solutionrelative:contexto_pedido\\domain\\services\\requestdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateItemQuantityStockNotificationEventHandle.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEventsGroup\\UpdateItemQuantityStockNotificationEventHandle.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEventsGroup\\UpdateItemQuantityStockNotificationEventHandle.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEventsGroup\\UpdateItemQuantityStockNotificationEventHandle.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEventsGroup\\UpdateItemQuantityStockNotificationEventHandle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:24:03.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestApplicationServiceDependencies.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:22:30.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:22:24.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatedRequestDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Events\\Request\\Events\\CreatedRequestDomainEvent.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Domain\\Events\\Request\\Events\\CreatedRequestDomainEvent.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Events\\Request\\Events\\CreatedRequestDomainEvent.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Domain\\Events\\Request\\Events\\CreatedRequestDomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:22:06.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Services\\RequestDomainService.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Domain\\Services\\RequestDomainService.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Services\\RequestDomainService.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Domain\\Services\\RequestDomainService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:21:53.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
