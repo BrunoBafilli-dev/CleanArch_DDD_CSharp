@@ -10,8 +10,6 @@ using Domain.Entities.Request;
 using Domain.Events.Request.Events;
 using Domain.UnitOfWork;
 using MediatR;
-using SharedKernel.Events.Item;
-using SharedKernel.Events.Item.UpdateQuantityEventGroup.Commands;
 
 namespace Application.Events.Request.Handlers.CreatePruductEventsGroup
 {

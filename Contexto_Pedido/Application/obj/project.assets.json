@@ -130,20 +130,6 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "SharedKernel.Events/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Domain": "1.0.0",
-          "MediatR": "12.3.0"
-        },
-        "compile": {
-          "bin/placeholder/SharedKernel.Events.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedKernel.Events.dll": {}
-        }
-      },
       "Validations/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -308,26 +294,20 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../../Contexto_Estoque/Domain/Domain.csproj",
-      "msbuildProject": "../../Contexto_Estoque/Domain/Domain.csproj"
-    },
-    "SharedKernel.Events/1.0.0": {
-      "type": "project",
-      "path": "../../Events/SharedKernel.Events.csproj",
-      "msbuildProject": "../../Events/SharedKernel.Events.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
     "Validations/1.0.0": {
       "type": "project",
-      "path": "../../Validations/Validations.csproj",
-      "msbuildProject": "../../Validations/Validations.csproj"
+      "path": "../Validations/Validations.csproj",
+      "msbuildProject": "../Validations/Validations.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "Domain >= 1.0.0",
-      "MediatR >= 12.3.0",
-      "SharedKernel.Events >= 1.0.0"
+      "MediatR >= 12.3.0"
     ]
   },
   "packageFolders": {
@@ -365,9 +345,6 @@
           "projectReferences": {
             "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Domain\\Domain.csproj"
-            },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Events\\SharedKernel.Events.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Events\\SharedKernel.Events.csproj"
             }
           }
         }

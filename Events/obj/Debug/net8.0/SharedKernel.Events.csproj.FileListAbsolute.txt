@@ -16,3 +16,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Events\obj\Debug\net8.0\Sha
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Events\obj\Debug\net8.0\refint\SharedKernel.Events.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Events\obj\Debug\net8.0\SharedKernel.Events.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Events\obj\Debug\net8.0\ref\SharedKernel.Events.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Events\bin\Debug\net8.0\Application.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Events\bin\Debug\net8.0\Application.pdb

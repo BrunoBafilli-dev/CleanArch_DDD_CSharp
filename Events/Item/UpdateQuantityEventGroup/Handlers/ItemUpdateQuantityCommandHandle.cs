@@ -15,22 +15,12 @@ namespace SharedKernel.Events.Item.UpdateQuantityEventGroup.Handlers
 
         public async Task<ItemEntity> Handle(ItemUpdateQuantityCommand request, CancellationToken cancellationToken)
         {
-            // Log the request occurrence time - consider using a logging framework instead of throwing an exception
-            Console.WriteLine("Request Occurred On: " + request.OcurredOn.ToString());
 
-            // Simulate some processing logic
-            // Assumindo que ItemEntity tem um construtor adequado
+            //_mediator.Send(new ItemStock)
+
             var itemEntity = new ItemEntity("teste", 5, 5); // Criando uma nova instância de ItemEntity
 
             return await Task.FromResult(itemEntity); // Retornando a instância como uma Task
         }
-
-
-        //public async Task Handle(UpdatedStockDomainEvent notification, CancellationToken cancellationToken)
-        //{
-        //    var itemUpdateCommand = new ItemStockReduceUpdateCommand(notification);
-
-        //    await _mediator.Send(itemUpdateCommand, cancellationToken);
-        //}
     }
 }

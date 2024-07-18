@@ -19,9 +19,7 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\Application.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\Application.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\Domain.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\SharedKernel.Events.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\Validations.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\SharedKernel.Events.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\Domain.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\bin\Debug\net8.0\Validations.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Pedido\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
