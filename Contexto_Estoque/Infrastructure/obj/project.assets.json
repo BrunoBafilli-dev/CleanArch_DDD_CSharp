@@ -1537,24 +1537,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "MediatR": "12.3.0",
-          "Validations": "1.0.0"
+          "MediatR": "12.3.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
-        }
-      },
-      "Validations/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Validations.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Validations.dll": {}
         }
       }
     }
@@ -4186,11 +4175,6 @@
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
-    },
-    "Validations/1.0.0": {
-      "type": "project",
-      "path": "../../Validations/Validations.csproj",
-      "msbuildProject": "../../Validations/Validations.csproj"
     }
   },
   "projectFileDependencyGroups": {

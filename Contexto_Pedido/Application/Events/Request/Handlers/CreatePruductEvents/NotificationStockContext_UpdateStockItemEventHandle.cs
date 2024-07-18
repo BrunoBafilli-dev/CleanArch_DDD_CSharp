@@ -31,7 +31,7 @@ namespace Application.Events.Request.Handlers.CreatePruductEventsGroup
                 itemsEntities.Add(itemEntity);
             }
 
-            //await _mediator.Send(new ItemUpdateQuantityCommand(itemsEntities));
+            //await _mediator.Send(new ItemUpdateQuantityCommand(itemsEntities)); parei aqui
         }
     }
 }

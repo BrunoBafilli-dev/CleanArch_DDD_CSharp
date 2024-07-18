@@ -22,7 +22,8 @@ namespace Application.CQRS.Request.Handlers.Commands
         {
             await _unitOfWork.RequestRepository.CreateRequestAsync(request.RequestEntity);
 
-            await _unitOfWork.CommitAsync();
+            await _unitOfWork.CommitAsync(); // precisa enviar o commit depois dos eventos disparados. TALVEZ... 
+            //PRECISA PENSAR MAIS.
 
             await RequestCreatedDispatchEvents(request.RequestEntity);
 
