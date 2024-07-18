@@ -35,17 +35,6 @@ namespace Application.CQRS.Request.Handlers.Commands
             {
                 await _eventBus.Publish(@event);
             }
-
-            //Dictionary<int, int, DateTime> dictionary = new Dictionary<int, int, DateTime>();
-
-            List<object> itemsEntities = new List<object>();
-
-            foreach (var itemEntity in requestEntity.RequestItensEntities)
-            {
-                itemsEntities.Add(itemEntity);
-            }
-
-            await _eventBus.Publish(new ItemStockReduceUpdateCommand(itemsEntities));
         }
     }
 }

@@ -8,7 +8,6 @@ namespace Domain.Events.Request.Interfaces
 {
     public interface IDomainEvent
     {
-        public int Id { get; set; }
         public DateTime OcurredOn { get; set; }
     }
 }

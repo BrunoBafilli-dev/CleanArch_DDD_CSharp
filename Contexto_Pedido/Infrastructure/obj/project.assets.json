@@ -1553,10 +1553,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Application": "1.0.0",
           "AutoMapper": "13.0.1",
           "Domain": "1.0.0",
-          "MediatR": "12.3.0"
+          "MediatR": "12.3.0",
+          "SharedKernel.Events": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -1577,6 +1577,20 @@
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "SharedKernel.Events/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "MediatR": "12.3.0"
+        },
+        "compile": {
+          "bin/placeholder/SharedKernel.Events.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedKernel.Events.dll": {}
         }
       },
       "Validations/1.0.0": {
@@ -4239,6 +4253,11 @@
       "path": "../../Contexto_Estoque/Domain/Domain.csproj",
       "msbuildProject": "../../Contexto_Estoque/Domain/Domain.csproj"
     },
+    "SharedKernel.Events/1.0.0": {
+      "type": "project",
+      "path": "../../Events/SharedKernel.Events.csproj",
+      "msbuildProject": "../../Events/SharedKernel.Events.csproj"
+    },
     "Validations/1.0.0": {
       "type": "project",
       "path": "../../Validations/Validations.csproj",
@@ -4352,16 +4371,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Infrastructure -> Application -> Application.",
-      "libraryId": "Application",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

@@ -10,7 +10,8 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Domain": "1.0.0",
-          "MediatR": "12.3.0"
+          "MediatR": "12.3.0",
+          "SharedKernel.Events": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -79,13 +80,13 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "Domain/1.0.0": {
+      "SharedKernel.Events/1.0.0": {
         "dependencies": {
-          "MediatR": "12.3.0",
-          "Validations": "1.0.0"
+          "Domain": "1.0.0",
+          "MediatR": "12.3.0"
         },
         "runtime": {
-          "Domain.dll": {}
+          "SharedKernel.Events.dll": {}
         }
       },
       "Validations/1.0.0": {
@@ -150,7 +151,7 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "Domain/1.0.0": {
+    "SharedKernel.Events/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

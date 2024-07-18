@@ -16,7 +16,7 @@ namespace Application.CQRS.Item.Handlers.Command
 
         public async Task<ItemEntity> Handle(ItemStockReduceUpdateCommand request, CancellationToken cancellationToken)
         {
-            await _unitOfWork.ItemRepository.UpdateItemsStockAsync(request.ItemsEntities);
+            //await _unitOfWork.ItemRepository.UpdateItemsStockAsync(request.ItemsEntities);
 
             await _unitOfWork.CommitAsync();
 

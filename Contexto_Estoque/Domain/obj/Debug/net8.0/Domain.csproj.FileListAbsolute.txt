@@ -1,0 +1,16 @@
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\bin\Debug\net8.0\Validations.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\bin\Debug\net8.0\Validations.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Contexto_Estoque\Domain\obj\Debug\net8.0\ref\Domain.dll

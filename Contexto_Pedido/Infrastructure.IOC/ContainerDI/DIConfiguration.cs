@@ -13,6 +13,7 @@ using Infrastructure.Repositories.Request;
 using Infrastructure.Tools;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SharedKernel.Events.Item.UpdateQuantityEventGroup.Handlers;
 
 namespace Infrastructure.IOC.ContainerDI
 {
@@ -42,6 +43,8 @@ namespace Infrastructure.IOC.ContainerDI
              {
                  //É necessário somente 1 instancia e o mediatr localiza os outros, mas por organizacao, coloquei todos.
                  cfg.RegisterServicesFromAssembly(typeof(CreatedRequestEmailNotificationEventHandle).Assembly);
+                 cfg.RegisterServicesFromAssembly(typeof(NotificationStockContext_UpdateStockItemEventHandle).Assembly);
+                 cfg.RegisterServicesFromAssembly(typeof(ItemUpdateQuantityCommandHandle).Assembly);
              });
 
             services.AddAutoMapper(typeof(AutoMapperProfile));

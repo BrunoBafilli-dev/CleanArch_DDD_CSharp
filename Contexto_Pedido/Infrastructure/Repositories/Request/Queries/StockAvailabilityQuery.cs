@@ -3,7 +3,6 @@ using Domain.ValueObjects;
 using Infrastructure.Database.EntityFramework;
 using Domain.Entities.Item;
 using Microsoft.EntityFrameworkCore;
-using Validations.SQLValidation.Request;
 
 namespace Infrastructure.Repositories.Request.Queries
 {

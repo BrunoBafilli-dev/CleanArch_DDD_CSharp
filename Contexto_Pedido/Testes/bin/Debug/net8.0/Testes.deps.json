@@ -1570,19 +1570,11 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Domain": "1.0.0",
-          "MediatR": "12.3.0"
+          "MediatR": "12.3.0",
+          "SharedKernel.Events": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
-        }
-      },
-      "Domain/1.0.0": {
-        "dependencies": {
-          "MediatR": "12.3.0",
-          "Validations": "1.0.0"
-        },
-        "runtime": {
-          "Domain.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -1608,9 +1600,13 @@
           "Infrastructure.IOC.dll": {}
         }
       },
-      "Validations/1.0.0": {
+      "SharedKernel.Events/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "MediatR": "12.3.0"
+        },
         "runtime": {
-          "Validations.dll": {}
+          "SharedKernel.Events.dll": {}
         }
       }
     }
@@ -2613,11 +2609,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2628,7 +2619,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Validations/1.0.0": {
+    "SharedKernel.Events/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
