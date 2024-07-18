@@ -1553,6 +1553,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Application": "1.0.0",
           "AutoMapper": "13.0.1",
           "Domain": "1.0.0",
           "MediatR": "12.3.0"
@@ -4235,13 +4236,13 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../../Contexto_Estoque/Domain/Domain.csproj",
+      "msbuildProject": "../../Contexto_Estoque/Domain/Domain.csproj"
     },
     "Validations/1.0.0": {
       "type": "project",
-      "path": "../Validations/Validations.csproj",
-      "msbuildProject": "../Validations/Validations.csproj"
+      "path": "../../Validations/Validations.csproj",
+      "msbuildProject": "../../Validations/Validations.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4351,5 +4352,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  Infrastructure -> Application -> Application.",
+      "libraryId": "Application",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

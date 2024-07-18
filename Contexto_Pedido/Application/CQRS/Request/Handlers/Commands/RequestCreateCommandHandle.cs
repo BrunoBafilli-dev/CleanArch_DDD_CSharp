@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.CQRS.Item.Commands;
 using Application.CQRS.Request.Commands;
 using Application.Events.EventBus;
-using AutoMapper;
 using Domain.Entities.Request;
 using Domain.UnitOfWork;
 using MediatR;
@@ -40,6 +35,17 @@ namespace Application.CQRS.Request.Handlers.Commands
             {
                 await _eventBus.Publish(@event);
             }
+
+            //Dictionary<int, int, DateTime> dictionary = new Dictionary<int, int, DateTime>();
+
+            List<object> itemsEntities = new List<object>();
+
+            foreach (var itemEntity in requestEntity.RequestItensEntities)
+            {
+                itemsEntities.Add(itemEntity);
+            }
+
+            await _eventBus.Publish(new ItemStockReduceUpdateCommand(itemsEntities));
         }
     }
 }
