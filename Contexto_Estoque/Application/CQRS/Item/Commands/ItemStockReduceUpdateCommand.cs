@@ -12,7 +12,7 @@ namespace Application.CQRS.Item.Commands
 {
     public class ItemStockReduceUpdateCommand : IRequest<ItemEntity>, IDomainEvent
     {
-        public List<UpdatedStockDomainEvent> UpdatedStockDomainEvent { get; private set; }
+        public List<object> UpdatedStockDomainEvent { get; private set; }
         public DateTime OcurredOn { get; }
     }
 }

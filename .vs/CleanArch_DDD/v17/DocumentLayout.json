@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\events\\request\\handlers\\createpruductevents\\notificationstockcontext_updatestockitemeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\events\\request\\handlers\\createpruductevents\\createdrequestemailnotificationeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\events\\request\\handlers\\createpruductevents\\createdrequestemailnotificationeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\services\\request\\requestapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\services\\request\\requestapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\services\\request\\requestapplicationservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.csproj|solutionrelative:contexto_pedido\\application\\services\\request\\requestapplicationservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreatedRequestEmailNotificationEventHandle.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\CreatedRequestEmailNotificationEventHandle.cs",
-              "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\CreatedRequestEmailNotificationEventHandle.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\CreatedRequestEmailNotificationEventHandle.cs",
-              "RelativeToolTip": "Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\CreatedRequestEmailNotificationEventHandle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T23:14:43.996Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,10 +32,34 @@
               "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
               "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
               "RelativeToolTip": "Contexto_Pedido\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T23:14:32.656Z",
+              "WhenOpened": "2024-07-19T12:37:11.262Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:36:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestApplicationServiceDependencies.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "RelativeToolTip": "Contexto_Pedido\\Application\\Services\\Request\\RequestApplicationServiceDependencies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:36:57.108Z"
             }
           ]
         }

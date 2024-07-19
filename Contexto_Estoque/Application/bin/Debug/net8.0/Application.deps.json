@@ -45,16 +45,18 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "MediatR": "12.3.0",
-          "Validations": "1.0.0"
+          "MediatR": "12.3.0"
         },
         "runtime": {
           "Domain.dll": {}
         }
       },
-      "Validations/1.0.0": {
+      "Validations/1.0.0.0": {
         "runtime": {
-          "Validations.dll": {}
+          "Validations.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -91,8 +93,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Validations/1.0.0": {
-      "type": "project",
+    "Validations/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -604,15 +604,6 @@
           "Application.dll": {}
         }
       },
-      "Domain/1.0.0": {
-        "dependencies": {
-          "MediatR": "12.3.0",
-          "Validations": "1.0.0"
-        },
-        "runtime": {
-          "Domain.dll": {}
-        }
-      },
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
@@ -624,9 +615,12 @@
           "Infrastructure.dll": {}
         }
       },
-      "Validations/1.0.0": {
+      "Validations/1.0.0.0": {
         "runtime": {
-          "Validations.dll": {}
+          "Validations.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1048,18 +1042,13 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Validations/1.0.0": {
-      "type": "project",
+    "Validations/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
