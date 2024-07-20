@@ -1,0 +1,16 @@
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Shared_Kernel.deps.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Shared_Kernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.AssemblyInfoInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.AssemblyInfo.cs
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.sourcelink.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\refint\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\ref\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Stock.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.csproj.AssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.S.F6F226A8.Up2Date

@@ -53,6 +53,7 @@ namespace Domain.Stock
                     channel.Close();
                     connection.Close();
                 }
+
             }
         }
     }

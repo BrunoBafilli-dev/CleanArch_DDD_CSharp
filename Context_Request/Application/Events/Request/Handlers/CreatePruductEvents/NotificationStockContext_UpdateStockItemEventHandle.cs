@@ -1,6 +1,5 @@
 ﻿using System.Text;
 using Domain.Request.Events.Request.Events;
-using Domain.Stock;
 using MediatR;
 using RabbitMQ.Client;
 
@@ -25,11 +24,11 @@ namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
             if (NeedToReceiveMessages())
             {
                 
-                Receiver receiver = new Receiver();
+                //Receiver receiver = new Receiver();
                 // Passando o cancellationToken para que o processo de recebimento possa ser cancelado externamente
 
               
-                await receiver.ReceiveMessagesAsync(cancellationToken);// disparar evento
+                //await receiver.ReceiveMessagesAsync(cancellationToken);// disparar evento
             }
 
             // Suponha que isso é o comando para atualizar o estoque

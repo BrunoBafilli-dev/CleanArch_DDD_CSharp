@@ -42,5 +42,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastruct
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\obj\Debug\net8.0\Infrastructure.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\obj\Debug\net8.0\Infrastructure.Request.genruntimeconfig.cache
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.Request.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\bin\Debug\net8.0\Domain.Stock.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\bin\Debug\net8.0\Domain.Stock.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\bin\Debug\net8.0\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure\bin\Debug\net8.0\Domain.Shared_Kernel.pdb

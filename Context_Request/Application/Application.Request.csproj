@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Context_Stock\Domain.Stock\Domain.Stock.csproj" />
+    <ProjectReference Include="..\..\Domain.Shared_Kernel\Domain.Shared_Kernel.csproj" />
     <ProjectReference Include="..\Domain\Domain.Request.csproj" />
   </ItemGroup>
 
