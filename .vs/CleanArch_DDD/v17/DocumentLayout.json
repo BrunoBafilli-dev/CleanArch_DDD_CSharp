@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\contexto_pedido\\application\\cqrs\\request\\handlers\\queries\\requestreadbyidqueryhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Contexto_Pedido\\Application\\Application.Request.csproj|solutionrelative:contexto_pedido\\application\\cqrs\\request\\handlers\\queries\\requestreadbyidqueryhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\CQRS\\Request\\Handlers\\Queries\\RequestReadByIdQueryHandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contexto_Pedido\\Application\\CQRS\\Request\\Handlers\\Queries\\RequestReadByIdQueryHandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +24,8 @@
               "RelativeDocumentMoniker": "Contexto_Pedido\\Application\\CQRS\\Request\\Handlers\\Queries\\RequestReadByIdQueryHandle.cs",
               "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Application\\CQRS\\Request\\Handlers\\Queries\\RequestReadByIdQueryHandle.cs",
               "RelativeToolTip": "Contexto_Pedido\\Application\\CQRS\\Request\\Handlers\\Queries\\RequestReadByIdQueryHandle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T00:44:37.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T00:44:37.762Z"
             }
           ]
         }
