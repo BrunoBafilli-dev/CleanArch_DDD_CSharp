@@ -42,7 +42,7 @@ namespace Infrastructure.IOC.Request.ContainerDI
              {
                  //É necessário somente 1 instancia e o mediatr localiza os outros, mas por organizacao, coloquei todos.
                  cfg.RegisterServicesFromAssembly(typeof(CreatedRequestEmailNotificationEventHandle).Assembly);
-                 cfg.RegisterServicesFromAssembly(typeof(NotificationStockContext_UpdateStockItemEventHandle).Assembly);
+                 cfg.RegisterServicesFromAssembly(typeof(NotificationStockContext_UpdateStockItemEventHandler).Assembly);
              });
 
             services.AddAutoMapper(typeof(AutoMapperProfile));

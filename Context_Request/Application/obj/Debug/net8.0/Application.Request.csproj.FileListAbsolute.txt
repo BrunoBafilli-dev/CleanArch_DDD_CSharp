@@ -34,3 +34,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\obj\Debug\net8.0\refint\Application.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\obj\Debug\net8.0\Application.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\obj\Debug\net8.0\ref\Application.Request.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.Stock.pdb
