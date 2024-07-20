@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using Domain.Entities.Interfaces;
-using Domain.ValueObjects;
+﻿using Domain.Request.Entities.Interfaces;
+using Domain.Request.ValueObjects;
 using Validations;
-using Validations.DomainValidation.Item;
+using Validations.Request;
+using Validations.Request.DomainValidation.Item;
 
-namespace Domain.Entities.Item
+namespace Domain.Request.Entities.Item
 {
     public class ItemEntity : Entity<int>, IAgregateRoot
     {

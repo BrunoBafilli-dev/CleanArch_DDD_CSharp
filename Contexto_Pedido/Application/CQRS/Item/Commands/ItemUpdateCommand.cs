@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Item;
-using Domain.Entities.Request;
-using Domain.ValueObjects;
+﻿using Domain.Request.Entities.Item;
+using Domain.Request.Entities.Request;
 using MediatR;
 
-namespace Application.CQRS.Item.Commands
+namespace Application.Request.CQRS.Item.Commands
 {
     public class ItemUpdateCommand : IRequest<ItemEntity>
     {

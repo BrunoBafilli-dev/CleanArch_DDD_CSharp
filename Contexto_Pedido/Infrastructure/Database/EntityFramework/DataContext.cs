@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Client;
-using Domain.Entities.Item;
-using Domain.Entities.Request;
+﻿using Domain.Request.Entities.Client;
+using Domain.Request.Entities.Item;
+using Domain.Request.Entities.Request;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Database.EntityFramework
+namespace Infrastructure.Request.Database.EntityFramework
 {
     public class DataContext : DbContext
     {

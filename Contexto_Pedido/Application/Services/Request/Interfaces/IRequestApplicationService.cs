@@ -1,10 +1,9 @@
-﻿using Application.DTOs.Request;
-using Domain.Entities.Request;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Application.Request.DTOs.Request;
 
 namespace Application.Services.Request.Interfaces
 {

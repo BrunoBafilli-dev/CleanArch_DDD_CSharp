@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.CQRS.Item.Commands;
-using Application.Events.Tools;
-using AutoMapper;
-using Domain.Events.Request.Events;
+﻿using Application.Request.Events.Tools;
+using Domain.Request.Events.Request.Events;
 using MediatR;
 
-namespace Application.Events.Request.Handlers.CreatePruductEventsGroup
+namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
 {
     public class CreatedRequestEmailNotificationEventHandle : INotificationHandler<CreatedRequestDomainEvent>
     {

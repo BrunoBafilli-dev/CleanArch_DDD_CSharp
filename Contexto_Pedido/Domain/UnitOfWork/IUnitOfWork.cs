@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Repositories.Item;
-using Domain.Repositories.Item.Interfaces;
-using Domain.Repositories.Request;
+﻿using Domain.Request.Repositories.Item;
+using Domain.Request.Repositories.Request;
 
-namespace Domain.UnitOfWork
+namespace Domain.Request.UnitOfWork
 {
     public interface IUnitOfWork
     {

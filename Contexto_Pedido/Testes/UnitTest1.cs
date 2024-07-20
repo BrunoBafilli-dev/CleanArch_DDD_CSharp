@@ -1,12 +1,11 @@
-using Application.DTOs.Request;
-using Application.Services.Request.Interfaces;
-using Domain.Entities.Request;
-using Domain.Services;
-using Domain.ValueObjects;
-using FluentAssertions;
-using Infrastructure.IOC.ContainerDI;
 
-namespace Testes
+using Application.Request.DTOs.Request;
+using Application.Services.Request.Interfaces;
+using Domain.Request.ValueObjects;
+using FluentAssertions;
+using Infrastructure.IOC.Request.ContainerDI;
+
+namespace Testes.Request
 {
     public class UnitTest1
     {
@@ -14,7 +13,7 @@ namespace Testes
 
         public UnitTest1()
         {
-            _requestApplicationService = DIConfiguration.GetService<IRequestApplicationService>();
+            _requestApplicationService = DiConfiguration.GetService<IRequestApplicationService>();
         }
 
         [Fact]

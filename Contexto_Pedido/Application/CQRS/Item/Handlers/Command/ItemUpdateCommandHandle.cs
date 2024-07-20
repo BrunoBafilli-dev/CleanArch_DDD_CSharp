@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.CQRS.Item.Commands;
-using AutoMapper;
-using Domain.Entities.Item;
-using Domain.Entities.Request;
-using Domain.UnitOfWork;
+﻿using Application.Request.CQRS.Item.Commands;
+using Domain.Request.Entities.Item;
+using Domain.Request.UnitOfWork;
 using MediatR;
 
-namespace Application.CQRS.Item.Handlers.Command
+namespace Application.Request.CQRS.Item.Handlers.Command
 {
     public class ItemUpdateCommandHandle : IRequestHandler<ItemUpdateCommand, ItemEntity>
     {

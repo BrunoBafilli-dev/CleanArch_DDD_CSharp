@@ -1,10 +1,9 @@
-﻿using Domain.Entities.Request;
-using Domain.ValueObjects;
-using Infrastructure.Database.EntityFramework;
-using Domain.Entities.Item;
+﻿using Domain.Request.Entities.Item;
+using Domain.Request.Entities.Request;
+using Infrastructure.Request.Database.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Repositories.Request.Queries
+namespace Infrastructure.Request.Repositories.Request.Queries
 {
     public class StockAvailabilityQuery
     {

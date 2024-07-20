@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Request;
-using Domain.Repositories.Request;
-using Domain.ValueObjects;
-using Infrastructure.Database.EntityFramework;
-using Infrastructure.Repositories.Request.Queries;
+﻿using Domain.Request.Entities.Request;
+using Domain.Request.Repositories.Request;
+using Infrastructure.Request.Database.EntityFramework;
+using Infrastructure.Request.Repositories.Request.Queries;
 using Microsoft.EntityFrameworkCore;
 using Validations;
+using Validations.Request;
 
-namespace Infrastructure.Repositories.Request
+namespace Infrastructure.Request.Repositories.Request
 {
     public class RequestRepository : IRequestRepository
     {

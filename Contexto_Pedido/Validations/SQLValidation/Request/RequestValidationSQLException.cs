@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Validations.SQLValidation.Request
+﻿namespace Validations.Request.SQLValidation.Request
 {
     public class RequestValidationSQLException : Exception
     {

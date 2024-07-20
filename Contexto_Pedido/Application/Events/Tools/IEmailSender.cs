@@ -1,4 +1,4 @@
-﻿namespace Application.Events.Tools
+﻿namespace Application.Request.Events.Tools
 {
     public interface IEmailSender
     {

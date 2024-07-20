@@ -1,11 +1,6 @@
-﻿using Application.Events.Tools;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.Request.Events.Tools;
 
-namespace Infrastructure.Tools
+namespace Infrastructure.Request.Tools
 {
     public class EmailSender : IEmailSender
     {

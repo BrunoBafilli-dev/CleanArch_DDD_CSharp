@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Request;
-using Domain.UnitOfWork;
+﻿using Domain.Request.Entities.Request;
 using MediatR;
 
-namespace Application.CQRS.Request.Queries
+namespace Application.Request.CQRS.Request.Queries
 {
     public class RequestReadByIdQuery : IRequest<RequestEntity>
     {

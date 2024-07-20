@@ -1,23 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using Application.CQRS.Item.Commands;
-using Application.CQRS.Request.Commands;
-using Application.CQRS.Request.Queries;
-using Application.DTOs.Request;
-using Application.Events.EventBus;
+﻿using Application.Request.CQRS.Request.Commands;
+using Application.Request.CQRS.Request.Queries;
+using Application.Request.DTOs.Request;
+using Application.Services.Request;
 using Application.Services.Request.Interfaces;
-using AutoMapper;
-using Domain.Entities.Request;
-using Domain.Services;
-using Domain.Services.Request.Interfaces;
-using Domain.UnitOfWork;
-using MediatR;
+using Domain.Request.Entities.Request;
 
-namespace Application.Services.Request
+namespace Application.Request.Services.Request
 {
     public class RequestApplicationService : IRequestApplicationService
     {

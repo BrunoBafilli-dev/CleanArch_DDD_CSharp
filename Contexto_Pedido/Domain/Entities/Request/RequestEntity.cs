@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using Domain.Entities.Interfaces;
-using Domain.Entities.Item;
-using Domain.Events.Request.Events;
-using Domain.Events.Request.Interfaces;
+﻿using Domain.Request.Entities.Interfaces;
+using Domain.Request.Events.Request.Events;
+using Domain.Request.Events.Request.Interfaces;
 using Validations;
+using Validations.Request;
 
-namespace Domain.Entities.Request
+namespace Domain.Request.Entities.Request
 {
     public class RequestEntity : Entity<int>, IAgregateRoot
     {

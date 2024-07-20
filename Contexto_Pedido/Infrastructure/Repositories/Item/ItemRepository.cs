@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Item;
-using Domain.Entities.Request;
-using Domain.Repositories.Item;
-using Infrastructure.Database.EntityFramework;
-using Infrastructure.Repositories.Item.Queries;
-using Microsoft.EntityFrameworkCore;
-using Validations.SQLValidation.Item;
-using static System.Net.Mime.MediaTypeNames;
+﻿using Domain.Request.Entities.Item;
+using Domain.Request.Entities.Request;
+using Domain.Request.Repositories.Item;
+using Infrastructure.Request.Database.EntityFramework;
+using Infrastructure.Request.Repositories.Item.Queries;
+using Validations.Request.SQLValidation.Item;
 
-namespace Infrastructure.Repositories.Item
+namespace Infrastructure.Request.Repositories.Item
 {
     public class ItemRepository : IItemRepository
     {

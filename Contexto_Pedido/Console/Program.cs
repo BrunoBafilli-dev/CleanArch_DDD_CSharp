@@ -1,9 +1,11 @@
-﻿using Application.DTOs.Request;
-using Application.Services.Request.Interfaces;
-using Domain.ValueObjects;
-using Infrastructure.IOC.ContainerDI;
+﻿
 
-var _requestApplicationService = DIConfiguration.GetService<IRequestApplicationService>();
+using Application.Request.DTOs.Request;
+using Application.Services.Request.Interfaces;
+using Domain.Request.ValueObjects;
+using Infrastructure.IOC.Request.ContainerDI;
+
+var _requestApplicationService = DiConfiguration.GetService<IRequestApplicationService>();
 
 List<RequestItemEntityDTO> requestItemEntity = new List<RequestItemEntityDTO>()
 {

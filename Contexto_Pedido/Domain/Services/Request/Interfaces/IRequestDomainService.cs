@@ -1,12 +1,6 @@
-﻿using Domain.Entities.Item;
-using Domain.Entities.Request;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Request.Entities.Request;
 
-namespace Domain.Services.Request.Interfaces
+namespace Domain.Request.Services.Request.Interfaces
 {
     public interface IRequestDomainService
     {

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Validations;
+﻿using Validations;
+using Validations.Request;
 
-namespace Domain.ValueObjects
+namespace Domain.Request.ValueObjects
 {
     public class QuantityItem
     {

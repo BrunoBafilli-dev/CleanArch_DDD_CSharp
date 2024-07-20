@@ -1,15 +1,10 @@
-﻿using Domain.Entities.Request;
-using Infrastructure.Database.EntityFramework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Item;
+﻿using Domain.Request.Entities.Item;
+using Domain.Request.Entities.Request;
+using Infrastructure.Request.Database.EntityFramework;
 using Microsoft.EntityFrameworkCore;
-using Validations.SQLValidation.Item;
+using Validations.Request.SQLValidation.Item;
 
-namespace Infrastructure.Repositories.Item.Queries
+namespace Infrastructure.Request.Repositories.Item.Queries
 {
     public class StockQuantityReduceQuery
     {

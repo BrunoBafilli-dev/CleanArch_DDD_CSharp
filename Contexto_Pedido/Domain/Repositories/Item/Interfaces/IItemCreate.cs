@@ -1,6 +1,6 @@
-﻿using Domain.Entities.Item;
+﻿using Domain.Request.Entities.Item;
 
-namespace Domain.Repositories.Item.Interfaces
+namespace Domain.Request.Repositories.Item.Interfaces
 {
     public interface IItemCreate
     {

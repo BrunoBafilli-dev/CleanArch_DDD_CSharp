@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Repositories.Request.Interfaces;
+﻿using Domain.Request.Repositories.Request.Interfaces;
 
-namespace Domain.Repositories.Request
+namespace Domain.Request.Repositories.Request
 {
     public interface IRequestRepository : IRequestCreate, IRequestUpdate, IRequestDelete, IRequestRead
     {

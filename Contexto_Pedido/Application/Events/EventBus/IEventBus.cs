@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Events.Request.Interfaces;
+﻿using Domain.Request.Events.Request.Interfaces;
 
-namespace Application.Events.EventBus
+namespace Application.Request.Events.EventBus
 {
     public interface IEventBus
     {

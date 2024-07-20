@@ -1033,76 +1033,76 @@
           }
         }
       },
-      "Application/1.0.0": {
+      "Application.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "Domain": "1.0.0",
+          "Domain.Request": "1.0.0",
           "MediatR": "12.3.0"
         },
         "compile": {
-          "bin/placeholder/Application.dll": {}
+          "bin/placeholder/Application.Request.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Application.dll": {}
+          "bin/placeholder/Application.Request.dll": {}
         }
       },
-      "Domain/1.0.0": {
+      "Domain.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "MediatR": "12.3.0",
-          "Validations": "1.0.0"
+          "Validations.Request": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Domain.Request.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Domain.Request.dll": {}
         }
       },
-      "Infrastructure/1.0.0": {
+      "Infrastructure.IOC.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Application": "1.0.0",
-          "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
-        },
-        "compile": {
-          "bin/placeholder/Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Infrastructure.dll": {}
-        }
-      },
-      "Infrastructure.IOC/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Application": "1.0.0",
-          "Domain": "1.0.0",
-          "Infrastructure": "1.0.0",
+          "Application.Request": "1.0.0",
+          "Domain.Request": "1.0.0",
+          "Infrastructure.Request": "1.0.0",
           "MediatR": "12.3.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "compile": {
-          "bin/placeholder/Infrastructure.IOC.dll": {}
+          "bin/placeholder/Infrastructure.IOC.Request.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infrastructure.IOC.dll": {}
+          "bin/placeholder/Infrastructure.IOC.Request.dll": {}
         }
       },
-      "Validations/1.0.0": {
+      "Infrastructure.Request/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Application.Request": "1.0.0",
+          "Domain.Request": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.Request.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Request.dll": {}
+        }
+      },
+      "Validations.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Validations.dll": {}
+          "bin/placeholder/Validations.Request.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Validations.dll": {}
+          "bin/placeholder/Validations.Request.dll": {}
         }
       }
     }
@@ -2905,35 +2905,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Application/1.0.0": {
+    "Application.Request/1.0.0": {
       "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
+      "path": "../Application/Application.Request.csproj",
+      "msbuildProject": "../Application/Application.Request.csproj"
     },
-    "Domain/1.0.0": {
+    "Domain.Request/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/Domain.Request.csproj",
+      "msbuildProject": "../Domain/Domain.Request.csproj"
     },
-    "Infrastructure/1.0.0": {
+    "Infrastructure.IOC.Request/1.0.0": {
       "type": "project",
-      "path": "../Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+      "path": "../Infrastructure.IOC/Infrastructure.IOC.Request.csproj",
+      "msbuildProject": "../Infrastructure.IOC/Infrastructure.IOC.Request.csproj"
     },
-    "Infrastructure.IOC/1.0.0": {
+    "Infrastructure.Request/1.0.0": {
       "type": "project",
-      "path": "../Infrastructure.IOC/Infrastructure.IOC.csproj",
-      "msbuildProject": "../Infrastructure.IOC/Infrastructure.IOC.csproj"
+      "path": "../Infrastructure/Infrastructure.Request.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.Request.csproj"
     },
-    "Validations/1.0.0": {
+    "Validations.Request/1.0.0": {
       "type": "project",
-      "path": "../Validations/Validations.csproj",
-      "msbuildProject": "../Validations/Validations.csproj"
+      "path": "../Validations/Validations.Request.csproj",
+      "msbuildProject": "../Validations/Validations.Request.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Infrastructure.IOC >= 1.0.0"
+      "Infrastructure.IOC.Request >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2943,9 +2943,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Console\\Console.csproj",
-      "projectName": "Console",
-      "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Console\\Console.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Console\\Console.Request.csproj",
+      "projectName": "Console.Request",
+      "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Console\\Console.Request.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Console\\obj\\",
       "projectStyle": "PackageReference",
@@ -2969,8 +2969,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.csproj"
+            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj"
             }
           }
         }

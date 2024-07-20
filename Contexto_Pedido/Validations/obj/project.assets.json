@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj",
-      "projectName": "Validations",
-      "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.Request.csproj",
+      "projectName": "Validations.Request",
+      "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\Validations.Request.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Contexto_Pedido\\Validations\\obj\\",
       "projectStyle": "PackageReference",

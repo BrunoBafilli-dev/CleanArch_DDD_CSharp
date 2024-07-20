@@ -1,14 +1,9 @@
-﻿using Application.Events.EventBus;
+﻿using Application.Request.Events.EventBus;
 using AutoMapper;
-using Domain.Services.Request.Interfaces;
+using Domain.Request.Services.Request.Interfaces;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Application.Services.Request
+namespace Application.Request.Services.Request
 {
     public class RequestApplicationServiceDependencies
     {

@@ -1,13 +1,6 @@
-﻿using Domain.Entities.Request;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.UnitOfWork;
+﻿using Domain.Request.Entities.Request;
 
-namespace Application.CQRS.Request.Commands
+namespace Application.Request.CQRS.Request.Commands
 {
     public class RequestCreateCommand : RequestCommand
     {

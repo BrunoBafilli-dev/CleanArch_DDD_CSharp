@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using Domain.Entities.Interfaces;
-using Domain.ValueObjects;
+﻿using Domain.Request.Entities.Interfaces;
+using Domain.Request.ValueObjects;
 using Validations;
+using Validations.Request;
 
-namespace Domain.Entities.Client
+namespace Domain.Request.Entities.Client
 {
     public class ClientEntity : Entity<int>, IAgregateRoot
     {

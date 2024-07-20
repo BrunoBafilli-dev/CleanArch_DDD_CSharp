@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.CQRS.Item.Commands;
-using Application.CQRS.Item.Handlers.Command;
-using Application.Events.EventBus;
-using Domain.Entities.Request;
-using Domain.Events.Request.Events;
-using Domain.UnitOfWork;
+﻿using Domain.Request.Events.Request.Events;
 using MediatR;
 
-namespace Application.Events.Request.Handlers.CreatePruductEventsGroup
+namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
 {
     public class NotificationStockContext_UpdateStockItemEventHandle : INotificationHandler<CreatedRequestDomainEvent>
     {

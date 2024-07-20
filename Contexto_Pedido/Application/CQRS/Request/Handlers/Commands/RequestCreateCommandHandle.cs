@@ -1,11 +1,10 @@
-﻿using Application.CQRS.Item.Commands;
-using Application.CQRS.Request.Commands;
-using Application.Events.EventBus;
-using Domain.Entities.Request;
-using Domain.UnitOfWork;
+﻿using Application.Request.CQRS.Request.Commands;
+using Application.Request.Events.EventBus;
+using Domain.Request.Entities.Request;
+using Domain.Request.UnitOfWork;
 using MediatR;
 
-namespace Application.CQRS.Request.Handlers.Commands
+namespace Application.Request.CQRS.Request.Handlers.Commands
 {
     public class RequestCreateCommandHandle : IRequestHandler<RequestCreateCommand, RequestEntity>
     {

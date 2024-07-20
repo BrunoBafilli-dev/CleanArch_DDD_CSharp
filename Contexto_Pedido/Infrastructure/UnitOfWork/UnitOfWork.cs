@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Repositories.Item;
-using Domain.Repositories.Request;
-using Domain.UnitOfWork;
-using Infrastructure.Database.EntityFramework;
-using Infrastructure.Repositories.Item;
-using Infrastructure.Repositories.Request;
+﻿using Domain.Request.Repositories.Item;
+using Domain.Request.Repositories.Request;
+using Domain.Request.UnitOfWork;
+using Infrastructure.Request.Database.EntityFramework;
+using Infrastructure.Request.Repositories.Item;
+using Infrastructure.Request.Repositories.Request;
 
-namespace Infrastructure.UnitOfWork
+namespace Infrastructure.Request.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable, IAsyncDisposable
     {

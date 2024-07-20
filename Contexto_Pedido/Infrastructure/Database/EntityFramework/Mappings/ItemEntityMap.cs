@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Item;
+﻿using Domain.Request.Entities.Item;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infrastructure.Database.EntityFramework.Mappings
+namespace Infrastructure.Request.Database.EntityFramework.Mappings
 {
     public class ItemEntityMap : IEntityTypeConfiguration<ItemEntity>
     {

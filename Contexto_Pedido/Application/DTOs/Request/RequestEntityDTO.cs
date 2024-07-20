@@ -1,11 +1,6 @@
-﻿using Domain.Entities.Request;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Request.Entities.Request;
 
-namespace Application.DTOs.Request
+namespace Application.Request.DTOs.Request
 {
     public class RequestEntityDTO
     {

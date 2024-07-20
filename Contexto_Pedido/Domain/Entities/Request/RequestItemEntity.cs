@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using Domain.Entities.Interfaces;
-using Domain.ValueObjects;
+﻿using Domain.Request.ValueObjects;
 using Validations;
+using Validations.Request;
 
-namespace Domain.Entities.Request
+namespace Domain.Request.Entities.Request
 {
     public class RequestItemEntity : Entity<int>
     {

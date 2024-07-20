@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Domain.Repositories.Item.Interfaces
+﻿namespace Domain.Request.Repositories.Item.Interfaces
 {
     public interface IItemDelete
     {

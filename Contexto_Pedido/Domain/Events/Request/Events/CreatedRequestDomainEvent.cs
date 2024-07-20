@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.Item;
-using Domain.Entities.Request;
-using Domain.Events.Request.Interfaces;
+﻿using Domain.Request.Entities.Request;
+using Domain.Request.Events.Request.Interfaces;
 using MediatR;
 
-namespace Domain.Events.Request.Events
+namespace Domain.Request.Events.Request.Events
 {
     public class CreatedRequestDomainEvent : IDomainEvent, INotification
     {

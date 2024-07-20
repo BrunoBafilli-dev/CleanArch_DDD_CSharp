@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Application.CQRS.Item.Commands;
-using Application.CQRS.Request.Commands;
-using Application.DTOs.Request;
-using Domain.Entities.Item;
-using Domain.Entities.Request;
+using Application.Request.CQRS.Item.Commands;
+using Application.Request.CQRS.Request.Commands;
+using Application.Request.DTOs.Request;
+using Domain.Request.Entities.Item;
+using Domain.Request.Entities.Request;
 
 namespace Application.DTOs
 {

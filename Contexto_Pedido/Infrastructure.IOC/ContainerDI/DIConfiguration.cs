@@ -1,26 +1,26 @@
 ﻿using Application.DTOs;
-using Application.Events.EventBus;
-using Application.Events.Request.Handlers.CreatePruductEventsGroup;
-using Application.Events.Tools;
-using Application.Services.Request;
+using Application.Request.Events.EventBus;
+using Application.Request.Events.Request.Handlers.CreatePruductEvents;
+using Application.Request.Events.Tools;
+using Application.Request.Services.Request;
 using Application.Services.Request.Interfaces;
-using Domain.Repositories.Request;
-using Domain.Services;
-using Domain.Services.Request.Interfaces;
-using Domain.UnitOfWork;
-using Infrastructure.Database.EntityFramework;
-using Infrastructure.Repositories.Request;
-using Infrastructure.Tools;
-using Microsoft.Extensions.Configuration;
+using Domain.Request.Repositories.Request;
+using Domain.Request.Services;
+using Domain.Request.Services.Request.Interfaces;
+using Domain.Request.UnitOfWork;
+using Infrastructure.Request.Database.EntityFramework;
+using Infrastructure.Request.Repositories.Request;
+using Infrastructure.Request.Tools;
+using Infrastructure.Request.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.IOC.ContainerDI
+namespace Infrastructure.IOC.Request.ContainerDI
 {
-    public class DIConfiguration
+    public class DiConfiguration
     {
         private static ServiceProvider _serviceProvider;
 
-        static DIConfiguration()
+        static DiConfiguration()
         {
             var services = new ServiceCollection();
             RegisterServices(services);
@@ -36,7 +36,7 @@ namespace Infrastructure.IOC.ContainerDI
             services.AddScoped<IRequestRepository, RequestRepository>();
             services.AddScoped<IEventBus, EventBus>();
             services.AddScoped<IEmailSender, EmailSender>();
-            services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddMediatR(cfg =>
              {
