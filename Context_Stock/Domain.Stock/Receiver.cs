@@ -26,7 +26,7 @@ namespace Domain.Stock
                 {
                     var body = ea.Body.ToArray();
                     var message = Encoding.UTF8.GetString(body);
-                    Console.WriteLine(" [x] Received {0} fafafa", message);
+                    Console.WriteLine(" [x] Received {0}", message);
 
                     // Manual Acknowledge
                     channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
