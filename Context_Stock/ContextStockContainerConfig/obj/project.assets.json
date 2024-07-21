@@ -90,24 +90,10 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Domain.Shared_Kernel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MediatR": "12.3.0"
-        },
-        "compile": {
-          "bin/placeholder/Domain.Shared_Kernel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.Shared_Kernel.dll": {}
-        }
-      },
       "Domain.Stock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Domain.Shared_Kernel": "1.0.0",
           "MediatR": "12.3.0",
           "RabbitMQ.Client": "6.8.1"
         },
@@ -252,11 +238,6 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Domain.Shared_Kernel/1.0.0": {
-      "type": "project",
-      "path": "../../Domain.Shared_Kernel/Domain.Shared_Kernel.csproj",
-      "msbuildProject": "../../Domain.Shared_Kernel/Domain.Shared_Kernel.csproj"
     },
     "Domain.Stock/1.0.0": {
       "type": "project",

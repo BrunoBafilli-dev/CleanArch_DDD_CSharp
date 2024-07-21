@@ -8,17 +8,18 @@ using System.Threading.Tasks;
 using Application.Request.Events.EventBus;
 using Domain.Request.Entities.Item;
 using Domain.Request.Entities.Request;
-using Domain.Shared_Kernel.Stock.Events;
+using Domain.Shared_Kernel.Stock.Events.Event;
+using Domain.Shared_Kernel.Stock.Events.IEventBus;
 
 namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
 {
     public class NotificationStockContextUpdateStockItemEventHandler : INotificationHandler<CreatedRequestDomainEvent>
     {
-        private readonly IMediator _mediator;
+        private readonly SKIEventBus _skiEventBus;
 
-        public NotificationStockContextUpdateStockItemEventHandler(IMediator mediator)
+        public NotificationStockContextUpdateStockItemEventHandler(SKIEventBus skiEventBus)
         {
-            _mediator = mediator;
+            _skiEventBus = skiEventBus;
         }
 
         public async Task Handle(CreatedRequestDomainEvent notification, CancellationToken cancellationToken)
@@ -28,16 +29,16 @@ namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
             SKUpdatedStockDomainEvent updatedStockDomainEvent =
                 new SKUpdatedStockDomainEvent(notification.Id, updatedItemsStockDomainEvent);
 
-            await _mediator.Publish(updatedStockDomainEvent);
+            await _skiEventBus.Publish(updatedStockDomainEvent);
         }
 
-        private List<SKUpdatedItemStockDomainEventMap> UpdatedItemStockDomainEventMapFactory(List<RequestItemEntity> itensEntities)
+        private List<SKItemStockUpdate> UpdatedItemStockDomainEventMapFactory(List<RequestItemEntity> itensEntities)
         {
-            List<SKUpdatedItemStockDomainEventMap> updatedItemStockDomainEventMap =
-                new List<SKUpdatedItemStockDomainEventMap>();
+            List<SKItemStockUpdate> updatedItemStockDomainEventMap =
+                new List<SKItemStockUpdate>();
 
             foreach (var requestItemEntity in itensEntities)
-                updatedItemStockDomainEventMap.Add(new SKUpdatedItemStockDomainEventMap(requestItemEntity.ItemId, requestItemEntity.QuantityItem.Quantity));
+                updatedItemStockDomainEventMap.Add(new SKItemStockUpdate(requestItemEntity.ItemId, requestItemEntity.QuantityItem.Quantity));
 
             return updatedItemStockDomainEventMap;
         }

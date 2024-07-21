@@ -32,7 +32,7 @@ namespace Testes.Request
         [Fact]
         public async Task ReadRequestByIdAsync()
         {
-            var request = await _requestApplicationService.ReadRequestByIdAsync(1);
+            var request = await _requestApplicationService.ReadRequestByIdAsync(5);
 
             request.RequestItensEntities.Count.Should().BeGreaterThan(0);
 

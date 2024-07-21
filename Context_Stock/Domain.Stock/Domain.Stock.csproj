@@ -11,8 +11,4 @@
     <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\Domain.Shared_Kernel\Domain.Shared_Kernel.csproj" />
-  </ItemGroup>
-
 </Project>

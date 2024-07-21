@@ -1072,7 +1072,6 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Domain.Request": "1.0.0",
-          "Domain.Shared_Kernel": "1.0.0",
           "MediatR": "12.3.0",
           "RabbitMQ.Client": "6.8.1"
         },
@@ -1095,19 +1094,6 @@
         },
         "runtime": {
           "bin/placeholder/Domain.Request.dll": {}
-        }
-      },
-      "Domain.Shared_Kernel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MediatR": "12.3.0"
-        },
-        "compile": {
-          "bin/placeholder/Domain.Shared_Kernel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.Shared_Kernel.dll": {}
         }
       },
       "Infrastructure.Request/1.0.0": {
@@ -2991,11 +2977,6 @@
       "type": "project",
       "path": "../Domain/Domain.Request.csproj",
       "msbuildProject": "../Domain/Domain.Request.csproj"
-    },
-    "Domain.Shared_Kernel/1.0.0": {
-      "type": "project",
-      "path": "../../Domain.Shared_Kernel/Domain.Shared_Kernel.csproj",
-      "msbuildProject": "../../Domain.Shared_Kernel/Domain.Shared_Kernel.csproj"
     },
     "Infrastructure.Request/1.0.0": {
       "type": "project",

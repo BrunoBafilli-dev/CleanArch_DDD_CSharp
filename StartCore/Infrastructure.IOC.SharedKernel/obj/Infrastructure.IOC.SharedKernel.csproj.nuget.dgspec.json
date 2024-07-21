@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj": {}
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj",
-        "projectName": "Domain.Shared_Kernel",
-        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj",
+        "projectName": "Infrastructure.IOC.SharedKernel",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Infrastructure.IOC.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,12 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

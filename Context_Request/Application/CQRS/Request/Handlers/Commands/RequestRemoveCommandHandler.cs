@@ -12,11 +12,11 @@ using MediatR;
 
 namespace Application.Request.CQRS.Request.Handlers.Commands
 {
-    public class RequestDeleteCommandHandler : IRequestHandler<RequestRemoveCommand, RequestEntity>
+    public class RequestRemoveCommandHandler : IRequestHandler<RequestRemoveCommand, RequestEntity>
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public RequestDeleteCommandHandler(IUnitOfWork unitOfWork)
+        public RequestRemoveCommandHandler(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }

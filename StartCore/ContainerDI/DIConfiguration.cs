@@ -8,6 +8,7 @@ using Domain.Request.Repositories.Request;
 using Domain.Request.Services;
 using Domain.Request.Services.Request.Interfaces;
 using Domain.Request.UnitOfWork;
+using Domain.Shared_Kernel.Stock.Events.IEventBus;
 using Infrastructure.IOC.Request.ContainerDI;
 using Infrastructure.Request.Database.EntityFramework;
 using Infrastructure.Request.Repositories.Request;
@@ -34,6 +35,7 @@ namespace ContainerDI.Core
             // Adicionando serviços dos contextos
             ContextRequestContainerConfig.AddContextRequestServices(services);
             ContextStockContainerConfig.AddContextStockServices(services);
+            services.AddScoped<SKIEventBus, SKEventBus>();
         }
 
         public static T GetService<T>()
