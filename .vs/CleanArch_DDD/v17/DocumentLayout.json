@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Context_Request\\Application\\Application.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\application\\events\\request\\handlers\\createpruductevents\\notificationstockcontext_updatestockitemeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Context_Request\\Application\\Application.Request.csproj|solutionrelative:context_request\\application\\events\\request\\handlers\\createpruductevents\\notificationstockcontext_updatestockitemeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{588DC163-27A3-4C9D-A367-9FA50308DCE2}|StartCore\\ContainerDI\\ContainerDI.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\startcore\\containerdi\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588DC163-27A3-4C9D-A367-9FA50308DCE2}|StartCore\\ContainerDI\\ContainerDI.csproj|solutionrelative:startcore\\containerdi\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C45EFEB-93EC-42B8-B596-CED6922E8128}|Context_Request\\Console\\Console.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C45EFEB-93EC-42B8-B596-CED6922E8128}|Context_Request\\Console\\Console.Request.csproj|solutionrelative:context_request\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\domain.stock\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|solutionrelative:context_stock\\domain.stock\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\domain.stock\\off__receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|solutionrelative:context_stock\\domain.stock\\off__receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588DC163-27A3-4C9D-A367-9FA50308DCE2}|StartCore\\ContainerDI\\ContainerDI.Core.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\startcore\\containerdi\\containerdi.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{588DC163-27A3-4C9D-A367-9FA50308DCE2}|StartCore\\ContainerDI\\ContainerDI.Core.csproj|solutionrelative:startcore\\containerdi\\containerdi.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F46A4C-9B6A-4D67-B39C-A3B553EFBF2A}|Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\infrastructure.ioc\\containerdi\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F46A4C-9B6A-4D67-B39C-A3B553EFBF2A}|Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj|solutionrelative:context_request\\infrastructure.ioc\\containerdi\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Context_Request\\Application\\Application.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\application\\events\\request\\handlers\\createpruductevents\\notificationstockcontextupdatestockitemeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC01C7-63B7-4314-B40F-3E4A631DA0F0}|Context_Request\\Application\\Application.Request.csproj|solutionrelative:context_request\\application\\events\\request\\handlers\\createpruductevents\\notificationstockcontextupdatestockitemeventhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57386F-478F-4F9A-95F3-7544113DF743}|Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\domain.shared_kernel\\stock\\events\\updatedstockdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C57386F-478F-4F9A-95F3-7544113DF743}|Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj|solutionrelative:domain.shared_kernel\\stock\\events\\updatedstockdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContainerDI.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.Core.csproj",
+              "RelativeDocumentMoniker": "StartCore\\ContainerDI\\ContainerDI.Core.csproj",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.Core.csproj",
+              "RelativeToolTip": "StartCore\\ContainerDI\\ContainerDI.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-21T10:37:25.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotificationStockContext_UpdateStockItemEventHandle.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
-              "RelativeDocumentMoniker": "Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
-              "RelativeToolTip": "Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContext_UpdateStockItemEventHandle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
+              "Title": "DIConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\DIConfiguration.cs",
+              "RelativeDocumentMoniker": "StartCore\\ContainerDI\\DIConfiguration.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\DIConfiguration.cs",
+              "RelativeToolTip": "StartCore\\ContainerDI\\DIConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T17:33:54.976Z",
+              "WhenOpened": "2024-07-21T10:37:23.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DIConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\ContainerDI\\DIConfiguration.cs",
+              "RelativeDocumentMoniker": "Context_Request\\Infrastructure.IOC\\ContainerDI\\DIConfiguration.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\ContainerDI\\DIConfiguration.cs",
+              "RelativeToolTip": "Context_Request\\Infrastructure.IOC\\ContainerDI\\DIConfiguration.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:37:07.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Console\\Program.cs",
+              "RelativeDocumentMoniker": "Context_Request\\Console\\Program.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Console\\Program.cs",
+              "RelativeToolTip": "Context_Request\\Console\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:33:24.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdatedStockDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Stock\\Events\\UpdatedStockDomainEvent.cs",
+              "RelativeDocumentMoniker": "Domain.Shared_Kernel\\Stock\\Events\\UpdatedStockDomainEvent.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Stock\\Events\\UpdatedStockDomainEvent.cs",
+              "RelativeToolTip": "Domain.Shared_Kernel\\Stock\\Events\\UpdatedStockDomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:32:18.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Receiver.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Receiver.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Domain.Stock\\Receiver.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Receiver.cs",
+              "RelativeToolTip": "Context_Stock\\Domain.Stock\\Receiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:29:04.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OFF__Receiver.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\OFF__Receiver.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Domain.Stock\\OFF__Receiver.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\OFF__Receiver.cs",
+              "RelativeToolTip": "Context_Stock\\Domain.Stock\\OFF__Receiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:28:43.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationStockContextUpdateStockItemEventHandle.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContextUpdateStockItemEventHandle.cs",
+              "RelativeDocumentMoniker": "Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContextUpdateStockItemEventHandle.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContextUpdateStockItemEventHandle.cs",
+              "RelativeToolTip": "Context_Request\\Application\\Events\\Request\\Handlers\\CreatePruductEvents\\NotificationStockContextUpdateStockItemEventHandle.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwB4AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:00:05.024Z",
               "EditorCaption": ""
             }
           ]

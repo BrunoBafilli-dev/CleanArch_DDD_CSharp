@@ -10,7 +10,4 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\De
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\refint\Domain.Shared_Kernel.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\ref\Domain.Shared_Kernel.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Stock.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\bin\Debug\net8.0\Domain.Stock.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.Shared_Kernel.csproj.AssemblyReference.cache
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Domain.Shared_Kernel\obj\Debug\net8.0\Domain.S.F6F226A8.Up2Date

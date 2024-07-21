@@ -105,6 +105,9 @@
         }
       },
       "Domain.Shared_Kernel/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.3.0"
+        },
         "runtime": {
           "Domain.Shared_Kernel.dll": {}
         }

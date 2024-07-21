@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Domain.Shared_Kernel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39fa797d0cf29b5acacc0ca60da790249759d73e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09cbc6dddc1a74f4195728d7a931f5b2c4b2d8ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Domain.Shared_Kernel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Domain.Shared_Kernel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
