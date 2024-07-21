@@ -9,6 +9,7 @@
       "Testes.Request/1.0.0": {
         "dependencies": {
           "Application.Request": "1.0.0",
+          "ContainerDI.Core": "1.0.0",
           "Domain.Request": "1.0.0",
           "FluentAssertions": "6.12.0",
           "Infrastructure.IOC.Request": "1.0.0",
@@ -1591,6 +1592,15 @@
           "Application.Request.dll": {}
         }
       },
+      "ContainerDI.Core/1.0.0": {
+        "dependencies": {
+          "Infrastructure.IOC.Request": "1.0.0",
+          "Infrastructure.IOC.Stock": "1.0.0"
+        },
+        "runtime": {
+          "ContainerDI.Core.dll": {}
+        }
+      },
       "Domain.Request/1.0.0": {
         "dependencies": {
           "MediatR": "12.3.0",
@@ -1608,6 +1618,16 @@
           "Domain.Shared_Kernel.dll": {}
         }
       },
+      "Domain.Stock/1.0.0": {
+        "dependencies": {
+          "Domain.Shared_Kernel": "1.0.0",
+          "MediatR": "12.3.0",
+          "RabbitMQ.Client": "6.8.1"
+        },
+        "runtime": {
+          "Domain.Stock.dll": {}
+        }
+      },
       "Infrastructure.IOC.Request/1.0.0": {
         "dependencies": {
           "Application.Request": "1.0.0",
@@ -1618,6 +1638,14 @@
         },
         "runtime": {
           "Infrastructure.IOC.Request.dll": {}
+        }
+      },
+      "Infrastructure.IOC.Stock/1.0.0": {
+        "dependencies": {
+          "Domain.Stock": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.IOC.Stock.dll": {}
         }
       },
       "Infrastructure.Request/1.0.0": {
@@ -2650,6 +2678,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "ContainerDI.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Domain.Request/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2660,7 +2693,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Domain.Stock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Infrastructure.IOC.Request/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.IOC.Stock/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

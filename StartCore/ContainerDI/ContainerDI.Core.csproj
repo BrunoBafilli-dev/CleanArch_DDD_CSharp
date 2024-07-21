@@ -7,14 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Context_Request\Application\Application.Request.csproj" />
-    <ProjectReference Include="..\..\Context_Request\Console\Console.Request.csproj" />
-    <ProjectReference Include="..\..\Context_Request\Domain\Domain.Request.csproj" />
     <ProjectReference Include="..\..\Context_Request\Infrastructure.IOC\Infrastructure.IOC.Request.csproj" />
-    <ProjectReference Include="..\..\Context_Request\Infrastructure\Infrastructure.Request.csproj" />
-    <ProjectReference Include="..\..\Context_Request\Validations\Validations.Request.csproj" />
-    <ProjectReference Include="..\..\Context_Stock\Domain.Stock\Domain.Stock.csproj" />
-    <ProjectReference Include="..\..\Domain.Shared_Kernel\Domain.Shared_Kernel.csproj" />
+    <ProjectReference Include="..\..\Context_Stock\ContextStockContainerConfig\Infrastructure.IOC.Stock.csproj" />
   </ItemGroup>
 
 </Project>

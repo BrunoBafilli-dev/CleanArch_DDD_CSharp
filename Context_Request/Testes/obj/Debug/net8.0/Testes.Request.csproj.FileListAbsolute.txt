@@ -325,3 +325,9 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\obj\
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Domain.Shared_Kernel.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Domain.Shared_Kernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\ContainerDI.Core.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Domain.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Infrastructure.IOC.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\ContainerDI.Core.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Domain.Stock.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Infrastructure.IOC.Stock.pdb

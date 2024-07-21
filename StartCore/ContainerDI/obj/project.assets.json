@@ -1083,19 +1083,6 @@
           "bin/placeholder/Application.Request.dll": {}
         }
       },
-      "Console.Request/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Infrastructure.IOC.Request": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Console.Request.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Console.Request.dll": {}
-        }
-      },
       "Domain.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1153,6 +1140,19 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.IOC.Request.dll": {}
+        }
+      },
+      "Infrastructure.IOC.Stock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Stock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.IOC.Stock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.IOC.Stock.dll": {}
         }
       },
       "Infrastructure.Request/1.0.0": {
@@ -3032,11 +3032,6 @@
       "path": "../../Context_Request/Application/Application.Request.csproj",
       "msbuildProject": "../../Context_Request/Application/Application.Request.csproj"
     },
-    "Console.Request/1.0.0": {
-      "type": "project",
-      "path": "../../Context_Request/Console/Console.Request.csproj",
-      "msbuildProject": "../../Context_Request/Console/Console.Request.csproj"
-    },
     "Domain.Request/1.0.0": {
       "type": "project",
       "path": "../../Context_Request/Domain/Domain.Request.csproj",
@@ -3057,6 +3052,11 @@
       "path": "../../Context_Request/Infrastructure.IOC/Infrastructure.IOC.Request.csproj",
       "msbuildProject": "../../Context_Request/Infrastructure.IOC/Infrastructure.IOC.Request.csproj"
     },
+    "Infrastructure.IOC.Stock/1.0.0": {
+      "type": "project",
+      "path": "../../Context_Stock/ContextStockContainerConfig/Infrastructure.IOC.Stock.csproj",
+      "msbuildProject": "../../Context_Stock/ContextStockContainerConfig/Infrastructure.IOC.Stock.csproj"
+    },
     "Infrastructure.Request/1.0.0": {
       "type": "project",
       "path": "../../Context_Request/Infrastructure/Infrastructure.Request.csproj",
@@ -3070,14 +3070,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Application.Request >= 1.0.0",
-      "Console.Request >= 1.0.0",
-      "Domain.Request >= 1.0.0",
-      "Domain.Shared_Kernel >= 1.0.0",
-      "Domain.Stock >= 1.0.0",
       "Infrastructure.IOC.Request >= 1.0.0",
-      "Infrastructure.Request >= 1.0.0",
-      "Validations.Request >= 1.0.0"
+      "Infrastructure.IOC.Stock >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3113,29 +3107,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj"
-            },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Console\\Console.Request.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Console\\Console.Request.csproj"
-            },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj"
-            },
             "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj": {
               "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj"
             },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj"
-            },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj"
-            },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj"
-            },
-            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Domain.Shared_Kernel\\Domain.Shared_Kernel.csproj"
+            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj"
             }
           }
         }

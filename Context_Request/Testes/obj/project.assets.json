@@ -2696,6 +2696,20 @@
           "bin/placeholder/Application.Request.dll": {}
         }
       },
+      "ContainerDI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Infrastructure.IOC.Request": "1.0.0",
+          "Infrastructure.IOC.Stock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ContainerDI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContainerDI.Core.dll": {}
+        }
+      },
       "Domain.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2723,6 +2737,21 @@
           "bin/placeholder/Domain.Shared_Kernel.dll": {}
         }
       },
+      "Domain.Stock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Shared_Kernel": "1.0.0",
+          "MediatR": "12.3.0",
+          "RabbitMQ.Client": "6.8.1"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Stock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Stock.dll": {}
+        }
+      },
       "Infrastructure.IOC.Request/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2738,6 +2767,19 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.IOC.Request.dll": {}
+        }
+      },
+      "Infrastructure.IOC.Stock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Stock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.IOC.Stock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.IOC.Stock.dll": {}
         }
       },
       "Infrastructure.Request/1.0.0": {
@@ -8177,6 +8219,11 @@
       "path": "../Application/Application.Request.csproj",
       "msbuildProject": "../Application/Application.Request.csproj"
     },
+    "ContainerDI.Core/1.0.0": {
+      "type": "project",
+      "path": "../../StartCore/ContainerDI/ContainerDI.Core.csproj",
+      "msbuildProject": "../../StartCore/ContainerDI/ContainerDI.Core.csproj"
+    },
     "Domain.Request/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.Request.csproj",
@@ -8187,10 +8234,20 @@
       "path": "../../Domain.Shared_Kernel/Domain.Shared_Kernel.csproj",
       "msbuildProject": "../../Domain.Shared_Kernel/Domain.Shared_Kernel.csproj"
     },
+    "Domain.Stock/1.0.0": {
+      "type": "project",
+      "path": "../../Context_Stock/Domain.Stock/Domain.Stock.csproj",
+      "msbuildProject": "../../Context_Stock/Domain.Stock/Domain.Stock.csproj"
+    },
     "Infrastructure.IOC.Request/1.0.0": {
       "type": "project",
       "path": "../Infrastructure.IOC/Infrastructure.IOC.Request.csproj",
       "msbuildProject": "../Infrastructure.IOC/Infrastructure.IOC.Request.csproj"
+    },
+    "Infrastructure.IOC.Stock/1.0.0": {
+      "type": "project",
+      "path": "../../Context_Stock/ContextStockContainerConfig/Infrastructure.IOC.Stock.csproj",
+      "msbuildProject": "../../Context_Stock/ContextStockContainerConfig/Infrastructure.IOC.Stock.csproj"
     },
     "Infrastructure.Request/1.0.0": {
       "type": "project",
@@ -8206,6 +8263,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Application.Request >= 1.0.0",
+      "ContainerDI.Core >= 1.0.0",
       "Domain.Request >= 1.0.0",
       "FluentAssertions >= 6.12.0",
       "Infrastructure.IOC.Request >= 1.0.0",
@@ -8260,6 +8318,9 @@
             },
             "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj": {
               "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj"
+            },
+            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.Core.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.Core.csproj"
             }
           }
         }

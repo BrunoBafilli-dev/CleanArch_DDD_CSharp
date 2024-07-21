@@ -8,11 +8,16 @@ using MediatR;
 
 namespace Domain.Stock
 {
-    public class Receiver : INotificationHandler<UpdatedStockDomainEvent>
+    public class Receiver : INotificationHandler<SKUpdatedStockDomainEvent>
     {
-        public Task Handle(UpdatedStockDomainEvent notification, CancellationToken cancellationToken)
+        public Task Handle(SKUpdatedStockDomainEvent notification, CancellationToken cancellationToken)
         {
-            Console.WriteLine("fon");
+            Console.WriteLine(notification.OcurredOn + " - " + notification.RequestId);
+
+            foreach (var updatedItemStockDomainEventMap in notification.UpdatedItemsStockDomainEventMap)
+            {
+                Console.WriteLine($"itemID: {updatedItemStockDomainEventMap.ItemId} - Quantity: {updatedItemStockDomainEventMap.QuantityItem}");
+            }
 
             return Task.CompletedTask;
         }

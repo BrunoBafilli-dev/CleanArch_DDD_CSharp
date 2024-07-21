@@ -1,4 +1,5 @@
-﻿using Domain.Request.Entities.Request;
+﻿using Domain.Request.Entities;
+using Domain.Request.Entities.Request;
 using Domain.Request.Repositories.Request;
 using Infrastructure.Request.Database.EntityFramework;
 using Infrastructure.Request.Repositories.Request.Queries;
@@ -29,9 +30,13 @@ namespace Infrastructure.Request.Repositories.Request
             throw new NotImplementedException();
         }
 
-        public Task DeleteRequestAsync(int id)
+        public async Task DeleteRequestAsync(int id)
         {
-            throw new NotImplementedException();
+            var requestEntity = await _dataContext.RequestEntities.FindAsync(id);
+
+            DefaultValidationsException.IsNullOrEmpty(requestEntity, nameof(requestEntity));
+
+            _dataContext.RequestEntities.Remove(requestEntity);
         }
 
         public async Task<RequestEntity> ReadRequestByIdAsync(int id)

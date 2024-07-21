@@ -1,6 +1,8 @@
-﻿namespace Application.Request.CQRS.Request.Commands
+﻿using Application.Request.CQRS.Interfaces;
+
+namespace Application.Request.CQRS.Request.Commands
 {
-    internal class RequestUpdateCommand
+    internal class RequestUpdateCommand : ICQRS
     {
     }
 }

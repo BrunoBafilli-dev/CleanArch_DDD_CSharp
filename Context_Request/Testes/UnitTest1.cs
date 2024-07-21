@@ -1,6 +1,7 @@
 
 using Application.Request.DTOs.Request;
 using Application.Services.Request.Interfaces;
+using ContainerDI.Core;
 using Domain.Request.ValueObjects;
 using FluentAssertions;
 using Infrastructure.IOC.Request.ContainerDI;
@@ -13,7 +14,7 @@ namespace Testes.Request
 
         public UnitTest1()
         {
-            _requestApplicationService = DiConfiguration.GetService<IRequestApplicationService>();
+            _requestApplicationService = DIConfiguration.GetService<IRequestApplicationService>();
         }
 
         [Fact]

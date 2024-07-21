@@ -8,11 +8,13 @@ using Domain.Request.Repositories.Request;
 using Domain.Request.Services;
 using Domain.Request.Services.Request.Interfaces;
 using Domain.Request.UnitOfWork;
+using Infrastructure.IOC.Request.ContainerDI;
 using Infrastructure.Request.Database.EntityFramework;
 using Infrastructure.Request.Repositories.Request;
 using Infrastructure.Request.Tools;
 using Infrastructure.Request.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace ContainerDI.Core
 {
@@ -23,29 +25,15 @@ namespace ContainerDI.Core
         static DIConfiguration()
         {
             var services = new ServiceCollection();
-            RegisterServices(services);
+            ConfigureServices(services);
             _serviceProvider = services.BuildServiceProvider();
         }
 
-        public static void RegisterServices(IServiceCollection services)
+        public static void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<DataContext>();
-            services.AddScoped<RequestApplicationServiceDependencies>();
-            services.AddScoped<IRequestApplicationService, RequestApplicationService>();
-            services.AddScoped<IRequestDomainService, RequestDomainService>();
-            services.AddScoped<IRequestRepository, RequestRepository>();
-            services.AddScoped<IEventBus, EventBus>();
-            services.AddScoped<IEmailSender, EmailSender>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-            services.AddMediatR(cfg =>
-            {
-                //É necessário somente 1 instancia e o mediatr localiza os outros, mas por organizacao, coloquei todos.
-                cfg.RegisterServicesFromAssembly(typeof(CreatedRequestEmailNotificationEventHandle).Assembly);
-                cfg.RegisterServicesFromAssembly(typeof(NotificationStockContextUpdateStockItemEventHandler).Assembly);
-            });
-
-            services.AddAutoMapper(typeof(AutoMapperProfile));
+            // Adicionando serviços dos contextos
+            ContextRequestContainerConfig.AddContextRequestServices(services);
+            ContextStockContainerConfig.AddContextStockServices(services);
         }
 
         public static T GetService<T>()
@@ -53,22 +41,17 @@ namespace ContainerDI.Core
             return _serviceProvider.GetService<T>();
         }
 
-        //Metodo de extensao.
-        //public static IServiceCollection AddInfraStructure(
-        //    this IServiceCollection services,
-        //    IConfiguration configuration)
-        //{
-
-        //    RegisterServices(services);
-
-        //    services.AddAutoMapper(typeof(AutoMapperProfile));
-
-        //    //var sqlConnection = configuration.GetConnectionString("DefaultConnection");
-
-        //    //services.AddDbContext<DataContext>(options =>
-        //    //options.UseSqlServer(sqlConnection));
-
-        //    return services;
-        //}
+        // Método de extensão.
+        // public static IServiceCollection AddInfraStructure(
+        //     this IServiceCollection services,
+        //     IConfiguration configuration)
+        // {
+        //     RegisterServices(services);
+        //     services.AddAutoMapper(typeof(AutoMapperProfile));
+        //     // var sqlConnection = configuration.GetConnectionString("DefaultConnection");
+        //     // services.AddDbContext<DataContext>(options =>
+        //     // options.UseSqlServer(sqlConnection));
+        //     return services;
+        // }
     }
 }

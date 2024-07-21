@@ -1,6 +1,7 @@
 ﻿using Domain.Request.Entities.Request;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.Extensions.Options;
 
 namespace Infrastructure.Request.Database.EntityFramework.Mappings
 {
@@ -29,11 +30,8 @@ namespace Infrastructure.Request.Database.EntityFramework.Mappings
                 .HasColumnType("INTEGER")
                 .HasMaxLength(80);
 
-            builder.HasMany(x => x.RequestItensEntities)
-                .WithOne(x => x.RequestEntity)
-                .OnDelete(DeleteBehavior.NoAction);
-
             builder.Ignore(x => x.RequestCreatedDomainEvents);
+
         }
     }
 }

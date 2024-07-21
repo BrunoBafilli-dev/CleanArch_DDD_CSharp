@@ -58,7 +58,8 @@ namespace Infrastructure.Request.Database.EntityFramework.Mappings
 
             builder.HasOne(x => x.RequestEntity)
                 .WithMany(x => x.RequestItensEntities)
-                .OnDelete(DeleteBehavior.NoAction);
+                .HasForeignKey(x => x.RequestId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

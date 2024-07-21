@@ -11,7 +11,9 @@ namespace Domain.Request.Entities.Request
         public int ItemId { get; set; }
         public QuantityItem QuantityItem { get; private set; }
         public PriceItem PriceItem { get; private set; }
-        public RequestEntity RequestEntity { get; private set; } //Relationship - EF
+
+        public RequestEntity RequestEntity { get; set; } //Relationship - EF
+        public int RequestId { get; set; } //Relationship - EF
 
         //Ctor
         public RequestItemEntity() { }//EF

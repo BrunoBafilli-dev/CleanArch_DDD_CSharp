@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Infrastructure.Migrations
+namespace Infrastructure.Request.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Domain.Entities.Client.ClientEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Client.ClientEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -44,7 +44,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Client", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Item.ItemEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Item.ItemEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -66,7 +66,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Item", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Request.RequestEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Request.RequestEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -89,7 +89,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Request", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Request.RequestItemEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Request.RequestItemEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -111,21 +111,21 @@ namespace Infrastructure.Migrations
                         .HasColumnType("NVARCHAR")
                         .HasColumnName("Name");
 
-                    b.Property<int>("RequestEntityId")
+                    b.Property<int>("RequestId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("Id");
 
-                    b.HasIndex("RequestEntityId");
+                    b.HasIndex("RequestId");
 
                     b.ToTable("RequestItem", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Client.ClientEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Client.ClientEntity", b =>
                 {
-                    b.OwnsOne("Domain.ValueObjects.Address", "Address", b1 =>
+                    b.OwnsOne("Domain.Request.ValueObjects.Address", "Address", b1 =>
                         {
                             b1.Property<int>("ClientEntityId")
                                 .HasColumnType("int");
@@ -152,9 +152,9 @@ namespace Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Domain.Entities.Item.ItemEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Item.ItemEntity", b =>
                 {
-                    b.OwnsOne("Domain.ValueObjects.PriceItem", "PriceItem", b1 =>
+                    b.OwnsOne("Domain.Request.ValueObjects.PriceItem", "PriceItem", b1 =>
                         {
                             b1.Property<int>("ItemEntityId")
                                 .HasColumnType("int");
@@ -171,7 +171,7 @@ namespace Infrastructure.Migrations
                                 .HasForeignKey("ItemEntityId");
                         });
 
-                    b.OwnsOne("Domain.ValueObjects.QuantityItem", "QuantityItemStock", b1 =>
+                    b.OwnsOne("Domain.Request.ValueObjects.QuantityItem", "QuantityItemStock", b1 =>
                         {
                             b1.Property<int>("ItemEntityId")
                                 .HasColumnType("int");
@@ -195,15 +195,15 @@ namespace Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Domain.Entities.Request.RequestItemEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Request.RequestItemEntity", b =>
                 {
-                    b.HasOne("Domain.Entities.Request.RequestEntity", "RequestEntity")
+                    b.HasOne("Domain.Request.Entities.Request.RequestEntity", "RequestEntity")
                         .WithMany("RequestItensEntities")
-                        .HasForeignKey("RequestEntityId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .HasForeignKey("RequestId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.OwnsOne("Domain.ValueObjects.PriceItem", "PriceItem", b1 =>
+                    b.OwnsOne("Domain.Request.ValueObjects.PriceItem", "PriceItem", b1 =>
                         {
                             b1.Property<int>("RequestItemEntityId")
                                 .HasColumnType("INTEGER");
@@ -220,7 +220,7 @@ namespace Infrastructure.Migrations
                                 .HasForeignKey("RequestItemEntityId");
                         });
 
-                    b.OwnsOne("Domain.ValueObjects.QuantityItem", "QuantityItem", b1 =>
+                    b.OwnsOne("Domain.Request.ValueObjects.QuantityItem", "QuantityItem", b1 =>
                         {
                             b1.Property<int>("RequestItemEntityId")
                                 .HasColumnType("INTEGER");
@@ -246,7 +246,7 @@ namespace Infrastructure.Migrations
                     b.Navigation("RequestEntity");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Request.RequestEntity", b =>
+            modelBuilder.Entity("Domain.Request.Entities.Request.RequestEntity", b =>
                 {
                     b.Navigation("RequestItensEntities");
                 });
