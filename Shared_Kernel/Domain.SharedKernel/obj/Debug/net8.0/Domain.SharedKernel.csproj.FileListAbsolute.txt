@@ -1,0 +1,13 @@
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\bin\Debug\net8.0\Domain.SharedKernel.deps.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\bin\Debug\net8.0\Domain.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\bin\Debug\net8.0\Domain.SharedKernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.AssemblyInfo.cs
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.sourcelink.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\refint\Domain.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\Domain.SharedKernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Domain.SharedKernel\obj\Debug\net8.0\ref\Domain.SharedKernel.dll

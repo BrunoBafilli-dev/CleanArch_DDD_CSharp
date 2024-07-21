@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain.Shared_Kernel.Stock.Events.Event;
+using Domain.SharedKernel.Stock.Events.Events;
 using MediatR;
 
 namespace Domain.Stock

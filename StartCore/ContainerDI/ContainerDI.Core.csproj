@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Context_Request\Infrastructure.IOC\Infrastructure.IOC.Request.csproj" />
     <ProjectReference Include="..\..\Context_Stock\ContextStockContainerConfig\Infrastructure.IOC.Stock.csproj" />
+    <ProjectReference Include="..\..\Shared_Kernel\Domain.SharedKernel\Domain.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

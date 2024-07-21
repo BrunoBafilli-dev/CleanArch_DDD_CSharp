@@ -1,17 +1,10 @@
-﻿using Domain.Request.Events.Request.Events;
+﻿using Domain.Request.Entities.Request;
+using Domain.Request.Events.Request.Events;
+using Domain.SharedKernel.Stock.Events.EventBus;
+using Domain.SharedKernel.Stock.Events.Events;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.Request.Events.EventBus;
-using Domain.Request.Entities.Item;
-using Domain.Request.Entities.Request;
-using Domain.Shared_Kernel.Stock.Events.Event;
-using Domain.Shared_Kernel.Stock.Events.IEventBus;
 
-namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
+namespace Application.Request.Events.Request.Handlers.CreatedRequestEventHandlers
 {
     public class NotificationStockContextUpdateStockItemEventHandler : INotificationHandler<CreatedRequestDomainEvent>
     {

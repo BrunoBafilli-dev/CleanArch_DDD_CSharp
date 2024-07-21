@@ -25,11 +25,13 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastruct
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Infrastructure.IOC.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Application.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Domain.Request.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Domain.SharedKernel.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Infrastructure.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Validations.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Application.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Domain.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Infrastructure.Request.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Domain.SharedKernel.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Validations.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\obj\Debug\net8.0\Infrastructure.IOC.Request.csproj.AssemblyReference.cache
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\obj\Debug\net8.0\Infrastructure.IOC.Request.GeneratedMSBuildEditorConfig.editorconfig
@@ -42,5 +44,3 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastruct
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\obj\Debug\net8.0\refint\Infrastructure.IOC.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\obj\Debug\net8.0\Infrastructure.IOC.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\obj\Debug\net8.0\ref\Infrastructure.IOC.Request.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Domain.Shared_Kernel.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Infrastructure.IOC\bin\Debug\net8.0\Domain.Shared_Kernel.pdb

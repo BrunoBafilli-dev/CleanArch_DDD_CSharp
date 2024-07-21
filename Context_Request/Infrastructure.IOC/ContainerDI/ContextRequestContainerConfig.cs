@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Request.Events.EventBus;
+using Application.Request.Events.Request.Handlers.CreatedRequestEventHandlers;
 using Application.Request.Events.Request.Handlers.CreatePruductEvents;
 using Application.Request.Events.Tools;
 using Application.Request.Services.Request;

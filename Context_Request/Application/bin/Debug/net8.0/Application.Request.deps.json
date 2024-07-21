@@ -10,7 +10,7 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Domain.Request": "1.0.0",
-          "Domain.Shared_Kernel": "1.0.0",
+          "Domain.SharedKernel": "1.0.0",
           "MediatR": "12.3.0",
           "RabbitMQ.Client": "6.8.1"
         },
@@ -104,12 +104,12 @@
           "Domain.Request.dll": {}
         }
       },
-      "Domain.Shared_Kernel/1.0.0": {
+      "Domain.SharedKernel/1.0.0": {
         "dependencies": {
           "MediatR": "12.3.0"
         },
         "runtime": {
-          "Domain.Shared_Kernel.dll": {}
+          "Domain.SharedKernel.dll": {}
         }
       },
       "Validations.Request/1.0.0": {
@@ -200,7 +200,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Domain.Shared_Kernel/1.0.0": {
+    "Domain.SharedKernel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

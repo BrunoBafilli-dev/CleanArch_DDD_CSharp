@@ -20,9 +20,9 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Application.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Application.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.Request.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.SharedKernel.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Validations.Request.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.Shared_Kernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.SharedKernel.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Domain.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\bin\Debug\net8.0\Validations.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Application\obj\Debug\net8.0\Application.Request.csproj.AssemblyReference.cache

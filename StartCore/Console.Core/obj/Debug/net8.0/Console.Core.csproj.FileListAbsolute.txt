@@ -57,17 +57,19 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Application.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\ContainerDI.Core.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.Request.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.Shared_Kernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.SharedKernel.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.Stock.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.IOC.Request.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.IOC.Stock.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Validations.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\ContainerDI.Core.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Application.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.Request.pdb
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.Shared_Kernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.SharedKernel.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Domain.Stock.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.IOC.Request.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.IOC.Stock.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Validations.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\obj\Debug\net8.0\Console.Core.csproj.AssemblyReference.cache
@@ -82,5 +84,3 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\obj\
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\obj\Debug\net8.0\Console.Core.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\obj\Debug\net8.0\Console.Core.genruntimeconfig.cache
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\obj\Debug\net8.0\ref\Console.Core.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.IOC.Stock.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\Console.Core\bin\Debug\net8.0\Infrastructure.IOC.Stock.pdb

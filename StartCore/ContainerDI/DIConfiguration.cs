@@ -8,7 +8,6 @@ using Domain.Request.Repositories.Request;
 using Domain.Request.Services;
 using Domain.Request.Services.Request.Interfaces;
 using Domain.Request.UnitOfWork;
-using Domain.Shared_Kernel.Stock.Events.IEventBus;
 using Infrastructure.IOC.Request.ContainerDI;
 using Infrastructure.Request.Database.EntityFramework;
 using Infrastructure.Request.Repositories.Request;
@@ -16,6 +15,7 @@ using Infrastructure.Request.Tools;
 using Infrastructure.Request.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using Domain.SharedKernel.Stock.Events.EventBus;
 
 namespace ContainerDI.Core
 {
