@@ -1,5 +1,6 @@
 ﻿using Application.Request.CQRS.Request.Commands;
 using Application.Request.Events.EventBus;
+using Application.Request.Events.Request.Events;
 using Domain.Request.Entities.Request;
 using Domain.Request.Events.Request.Events;
 using Domain.Request.Repositories;
@@ -52,7 +53,7 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
 
         public async Task CompensationEventDispatchEvent(RequestEntity requestEntity)
         {
-            await _eventBus.Publish(new CompensationRequestDeleteDomainEvent(requestEntity.Id));
+            await _eventBus.Publish(new CompensationRequestCreatedEvent(requestEntity.Id));
         }
     }
 }

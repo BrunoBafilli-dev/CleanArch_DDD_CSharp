@@ -10,6 +10,7 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\D
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.IOC.Stock.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Request.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Stock.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Validations.Request.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.IOC.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.IOC.Stock.pdb
@@ -20,6 +21,7 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\D
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Domain.SharedKernel.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Domain.Stock.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Request.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Stock.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Validations.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ContainerDI.StartCore.csproj.AssemblyReference.cache
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ContainerDI.StartCore.GeneratedMSBuildEditorConfig.editorconfig
@@ -32,5 +34,3 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\D
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\refint\ContainerDI.StartCore.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ContainerDI.StartCore.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ref\ContainerDI.StartCore.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Stock.dll
-C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Stock.pdb

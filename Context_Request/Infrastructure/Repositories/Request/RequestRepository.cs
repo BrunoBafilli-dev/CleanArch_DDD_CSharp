@@ -2,9 +2,7 @@
 using Domain.Request.Entities.Request;
 using Domain.Request.Repositories.Request;
 using Infrastructure.Request.Database.EntityFramework;
-using Infrastructure.Request.Repositories.Request.Queries;
 using Microsoft.EntityFrameworkCore;
-using Validations;
 using Validations.Request;
 
 namespace Infrastructure.Request.Repositories.Request
@@ -20,8 +18,6 @@ namespace Infrastructure.Request.Repositories.Request
 
         public async Task CreateRequestAsync(RequestEntity requestEntity)
         {
-            await StockAvailabilityQuery.StockAvailabilityAndAdjustment(requestEntity, _dataContext);
-
             _dataContext.RequestEntities.Add(requestEntity);
         }
 

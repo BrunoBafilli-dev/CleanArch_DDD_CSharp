@@ -1,5 +1,4 @@
 ﻿using Domain.Request.Entities.Client;
-using Domain.Request.Entities.Item;
 using Domain.Request.Entities.Request;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,7 +7,6 @@ namespace Infrastructure.Request.Database.EntityFramework
     public class RequestDataContext : DbContext
     {
         public DbSet<RequestEntity> RequestEntities { get; set; }
-        public DbSet<ItemEntity> ItemEntities { get; set; }
         public DbSet<ClientEntity> ClientEntities { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options){

@@ -24,7 +24,6 @@ namespace Infrastructure.Stock.Repository.Item
 
         public async Task UpdateItemsStockAsync(int itemId, int quantityItem)
         {
-            throw new NotImplementedException();
             await _itemRepositoryUpdateQueriesFaced.UpdateItemStockQueryAsync(itemId, quantityItem);
         }
     }

@@ -1,8 +1,6 @@
 ﻿using Domain.Request.Repositories;
-using Domain.Request.Repositories.Item;
 using Domain.Request.Repositories.Request;
 using Infrastructure.Request.Database.EntityFramework;
-using Infrastructure.Request.Repositories.Item;
 using Infrastructure.Request.Repositories.Request;
 
 namespace Infrastructure.Request.Repositories
@@ -14,11 +12,9 @@ namespace Infrastructure.Request.Repositories
 
         // Private properties
         private IRequestRepository _requestRepository;
-        private IItemRepository _itemRepository;
 
         // Public properties
         public IRequestRepository RequestRepository => _requestRepository ??= new RequestRepository(_dataContext);
-        public IItemRepository ItemRepository => _itemRepository ??= new ItemRepository(_dataContext);
 
         // Constructor
         public UnitOfWork(RequestDataContext dataContext)

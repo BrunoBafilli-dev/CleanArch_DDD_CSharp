@@ -1,13 +1,6 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.Request.CQRS.Item.Commands;
 using Application.Request.CQRS.Request.Commands;
 using Application.Request.DTOs.Request;
-using Domain.Request.Entities.Item;
 using Domain.Request.Entities.Request;
 
 namespace Application.DTOs
@@ -31,9 +24,6 @@ namespace Application.DTOs
 
             //Requests
             CreateMap<RequestCreateCommand, RequestEntity>().ReverseMap();
-
-            //Items
-            CreateMap<ItemUpdateCommand, ItemEntity>().ReverseMap();
         }
     }
 }

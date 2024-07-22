@@ -1,11 +1,11 @@
 ﻿using Infrastructure.Stock.Database.EntityFramework;
 using Infrastructure.Stock.Repository.Item.Queries.Interfaces;
+using Infrastructure.Stock.Repository.Item.Queries.Updates;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Infrastructure.Stock.Repository.Item.Queries.Updates;
 
 namespace Infrastructure.Stock.Repository.Item.Queries
 {
