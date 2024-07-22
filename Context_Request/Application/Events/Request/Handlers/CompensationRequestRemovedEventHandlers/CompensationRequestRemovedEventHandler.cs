@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Application.Request.Events.Request.Handlers.CompensationRequestDeletedEventHandlers
 {
-    public class CompensationRequestRemovedEventHandler : INotificationHandler<CompensationRequestCreatedEvent>
+    public class CompensationRequestRemovedEventHandler : INotificationHandler<CompensationRequestRemovedEvent>
     {
         private readonly IEventBus _eventBus;
 
@@ -15,7 +15,7 @@ namespace Application.Request.Events.Request.Handlers.CompensationRequestDeleted
             _eventBus = eventBus;
         }
 
-        public async Task Handle(CompensationRequestCreatedEvent notification, CancellationToken cancellationToken)
+        public async Task Handle(CompensationRequestRemovedEvent notification, CancellationToken cancellationToken)
         {
             await _eventBus.Send(new RequestRemoveCommand(notification.RequestId));
         }

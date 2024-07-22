@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Application.Request.CQRS.Request.Commands
 {
-    public class RequestRemoveCommand : IRequest<RequestEntity>, ICQRS
+    public class RequestRemoveCommand : IRequest<Unit>, ICQRS
     {
         public int RequestId { get; set; }
 

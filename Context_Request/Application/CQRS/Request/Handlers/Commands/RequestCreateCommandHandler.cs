@@ -8,7 +8,7 @@ using MediatR;
 
 namespace Application.Request.CQRS.Request.Handlers.Commands
 {
-    public class RequestCreateCommandHandler : IRequestHandler<RequestCreateCommand, RequestEntity>
+    public class RequestCreateCommandHandler : IRequestHandler<RequestCreateCommand, Unit>
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IEventBus _eventBus;
@@ -19,7 +19,7 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
             _eventBus = eventBus;
         }
 
-        public async Task<RequestEntity> Handle(RequestCreateCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(RequestCreateCommand request, CancellationToken cancellationToken)
         {
             await _unitOfWork.RequestRepository.CreateRequestAsync(request.RequestEntity);
 
@@ -27,7 +27,7 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
 
             await TryUpdateStockContext(request.RequestEntity);
 
-            return request.RequestEntity;
+            return Unit.Value;
         }
 
         public async Task TryUpdateStockContext(RequestEntity requestEntity)
@@ -53,7 +53,7 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
 
         public async Task CompensationEventDispatchEvent(RequestEntity requestEntity)
         {
-            await _eventBus.Publish(new CompensationRequestCreatedEvent(requestEntity.Id));
+            await _eventBus.Publish(new CompensationRequestRemovedEvent(requestEntity.Id));
         }
     }
 }

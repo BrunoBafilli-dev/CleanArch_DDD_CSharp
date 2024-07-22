@@ -11,7 +11,7 @@ using Domain.Request.Repositories;
 
 namespace Application.Request.CQRS.Request.Handlers.Commands
 {
-    public class RequestRemoveCommandHandler : IRequestHandler<RequestRemoveCommand, RequestEntity>
+    public class RequestRemoveCommandHandler : IRequestHandler<RequestRemoveCommand, Unit>
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -20,13 +20,13 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<RequestEntity> Handle(RequestRemoveCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(RequestRemoveCommand request, CancellationToken cancellationToken)
         {
             await _unitOfWork.RequestRepository.DeleteRequestAsync(request.RequestId);
 
             await _unitOfWork.CommitAsync();
 
-            return new RequestEntity(1, new List<RequestItemEntity>());
+            return Unit.Value;
         }
     }
 }
