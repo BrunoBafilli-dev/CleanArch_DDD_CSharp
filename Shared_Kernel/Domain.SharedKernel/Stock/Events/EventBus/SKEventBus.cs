@@ -12,6 +12,11 @@ namespace Domain.SharedKernel.Stock.Events.EventBus
     {
         private readonly IMediator _mediator;
 
+        public SKEventBus(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
         public Task Publish<TEvent>(TEvent @event) where TEvent : ISKIDomainEvent
         {
             _mediator.Publish(@event);

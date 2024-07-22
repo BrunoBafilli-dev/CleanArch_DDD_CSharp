@@ -1594,8 +1594,8 @@
       },
       "ContainerDI.Core/1.0.0": {
         "dependencies": {
-          "Domain.SharedKernel": "1.0.0",
           "Infrastructure.IOC.Request": "1.0.0",
+          "Infrastructure.IOC.SharedKernel": "1.0.0",
           "Infrastructure.IOC.Stock": "1.0.0"
         },
         "runtime": {
@@ -1639,6 +1639,14 @@
         },
         "runtime": {
           "Infrastructure.IOC.Request.dll": {}
+        }
+      },
+      "Infrastructure.IOC.SharedKernel/1.0.0": {
+        "dependencies": {
+          "Domain.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.IOC.SharedKernel.dll": {}
         }
       },
       "Infrastructure.IOC.Stock/1.0.0": {
@@ -2700,6 +2708,11 @@
       "sha512": ""
     },
     "Infrastructure.IOC.Request/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.IOC.SharedKernel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

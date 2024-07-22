@@ -331,3 +331,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\obj\
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\obj\Debug\net8.0\Testes.Request.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\obj\Debug\net8.0\Testes.Request.genruntimeconfig.cache
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\obj\Debug\net8.0\ref\Testes.Request.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Request\Testes\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.pdb

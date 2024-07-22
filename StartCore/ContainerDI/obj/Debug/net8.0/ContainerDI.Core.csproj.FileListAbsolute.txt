@@ -28,3 +28,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\D
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\refint\ContainerDI.Core.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ContainerDI.Core.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ref\ContainerDI.Core.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.pdb

@@ -1,0 +1,16 @@
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.deps.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\bin\Debug\net8.0\Infrastructure.IOC.SharedKernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\bin\Debug\net8.0\Domain.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\bin\Debug\net8.0\Domain.SharedKernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.AssemblyInfo.cs
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.sourcelink.json
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastr.6D96FA21.Up2Date
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\refint\Infrastructure.IOC.SharedKernel.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\Infrastructure.IOC.SharedKernel.pdb
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Shared_Kernel\Infrastructure.IOC.SharedKernel\obj\Debug\net8.0\ref\Infrastructure.IOC.SharedKernel.dll

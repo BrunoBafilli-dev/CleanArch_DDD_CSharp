@@ -16,6 +16,7 @@ using Infrastructure.Request.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using Domain.SharedKernel.Stock.Events.EventBus;
+using Infrastructure.IOC.SharedKernel.ContainerDI;
 
 namespace ContainerDI.Core
 {
@@ -35,7 +36,7 @@ namespace ContainerDI.Core
             // Adicionando serviços dos contextos
             ContextRequestContainerConfig.AddContextRequestServices(services);
             ContextStockContainerConfig.AddContextStockServices(services);
-            services.AddScoped<SKIEventBus, SKEventBus>();
+            ContextSharedKernelContainerConfig.AddContextSharedKernelServices(services);
         }
 
         public static T GetService<T>()

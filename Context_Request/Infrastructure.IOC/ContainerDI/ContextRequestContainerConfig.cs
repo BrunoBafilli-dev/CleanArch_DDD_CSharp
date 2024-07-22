@@ -20,41 +20,6 @@ namespace Infrastructure.IOC.Request.ContainerDI
 {
     public class ContextRequestContainerConfig
     {
-        //private static ServiceProvider _serviceProvider;
-
-        //static DiConfiguration()
-        //{
-        //    var services = new ServiceCollection();
-        //    RegisterServices(services);
-        //    _serviceProvider = services.BuildServiceProvider();
-        //}
-
-        //public static void RegisterServices(IServiceCollection services)
-        //{
-        //    services.AddScoped<DataContext>();
-        //    services.AddScoped<RequestApplicationServiceDependencies>();
-        //    services.AddScoped<IRequestApplicationService, RequestApplicationService>();
-        //    services.AddScoped<IRequestDomainService, RequestDomainService>();
-        //    services.AddScoped<IRequestRepository, RequestRepository>();
-        //    services.AddScoped<IEventBus, EventBus>();
-        //    services.AddScoped<IEmailSender, EmailSender>();
-        //    services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-        //    services.AddMediatR(cfg =>
-        //     {
-        //         //É necessário somente 1 instancia e o mediatr localiza os outros, mas por organizacao, coloquei todos.
-        //         cfg.RegisterServicesFromAssembly(typeof(CreatedRequestEmailNotificationEventHandle).Assembly);
-        //         cfg.RegisterServicesFromAssembly(typeof(NotificationStockContextUpdateStockItemEventHandler).Assembly);
-        //     });
-
-        //    services.AddAutoMapper(typeof(AutoMapperProfile));
-        //}
-
-        //public static T GetService<T>()
-        //{
-        //    return _serviceProvider.GetService<T>();
-        //}
-
         public static void AddContextRequestServices(IServiceCollection services) // Tornar público
         {
             services.AddScoped<DataContext>();
