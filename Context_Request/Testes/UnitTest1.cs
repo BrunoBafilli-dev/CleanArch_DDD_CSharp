@@ -35,10 +35,6 @@ namespace Testes.Request
             var request = await _requestApplicationService.ReadRequestByIdAsync(5);
 
             request.RequestItensEntities.Count.Should().BeGreaterThan(0);
-
-            //request.RequestItensEntities[0].Name.Should().Be("batata");
-
-            //request.Should().NotBeNull();
         }
     }
 }
