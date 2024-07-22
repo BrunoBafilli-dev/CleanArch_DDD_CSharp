@@ -20,3 +20,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Stock\ContextStockC
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Stock\ContextStockContainerConfig\obj\Debug\net8.0\refint\Infrastructure.IOC.Stock.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Stock\ContextStockContainerConfig\obj\Debug\net8.0\Infrastructure.IOC.Stock.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Stock\ContextStockContainerConfig\obj\Debug\net8.0\ref\Infrastructure.IOC.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Stock\ContextStockContainerConfig\bin\Debug\net8.0\Infrastructure.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\Context_Stock\ContextStockContainerConfig\bin\Debug\net8.0\Infrastructure.Stock.pdb

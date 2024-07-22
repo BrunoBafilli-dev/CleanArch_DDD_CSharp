@@ -6,7 +6,7 @@ namespace Application.Stock.CQRS.Item.Commands
 {
     public class ItemUpdateStockReduceCommand : IRequest<ItemEntity>
     {
-        public SKUpdatedStockDomainEvent SKUpdatedStockDomainEvent { get; set; }
+        public SKUpdatedStockDomainEvent SKUpdatedStockDomainEvent { get; private set; }
 
         public ItemUpdateStockReduceCommand(SKUpdatedStockDomainEvent skUpdatedStockDomainEvent)
         {

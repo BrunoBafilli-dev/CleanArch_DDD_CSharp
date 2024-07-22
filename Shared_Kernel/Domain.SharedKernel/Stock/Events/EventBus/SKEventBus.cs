@@ -17,11 +17,9 @@ namespace Domain.SharedKernel.Stock.Events.EventBus
             _mediator = mediator;
         }
 
-        public Task Publish<TEvent>(TEvent @event) where TEvent : ISKIDomainEvent
+        public async Task Publish<TEvent>(TEvent @event) where TEvent : ISKIDomainEvent
         {
-            _mediator.Publish(@event);
-
-            return Task.CompletedTask;
+            await _mediator.Publish(@event);
         }
     }
 }

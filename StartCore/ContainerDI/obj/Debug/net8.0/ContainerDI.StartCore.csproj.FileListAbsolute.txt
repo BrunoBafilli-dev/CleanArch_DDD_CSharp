@@ -32,3 +32,5 @@ C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\D
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\refint\ContainerDI.StartCore.dll
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ContainerDI.StartCore.pdb
 C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\obj\Debug\net8.0\ref\ContainerDI.StartCore.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Stock.dll
+C:\Users\Bruno\Documents\GitHub\CleanArch_DDD_CSharp\StartCore\ContainerDI\bin\Debug\net8.0\Infrastructure.Stock.pdb

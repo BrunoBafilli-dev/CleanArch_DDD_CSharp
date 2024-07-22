@@ -675,7 +675,8 @@
       },
       "Infrastructure.IOC.Stock/1.0.0": {
         "dependencies": {
-          "Application.Stock": "1.0.0"
+          "Application.Stock": "1.0.0",
+          "Infrastructure.Stock": "1.0.0"
         },
         "runtime": {
           "Infrastructure.IOC.Stock.dll": {}
@@ -690,6 +691,16 @@
         },
         "runtime": {
           "Infrastructure.Request.dll": {}
+        }
+      },
+      "Infrastructure.Stock/1.0.0": {
+        "dependencies": {
+          "Domain.Stock": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
+        },
+        "runtime": {
+          "Infrastructure.Stock.dll": {}
         }
       },
       "Validations.Request/1.0.0": {
@@ -1166,6 +1177,11 @@
       "sha512": ""
     },
     "Infrastructure.Request/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Stock/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

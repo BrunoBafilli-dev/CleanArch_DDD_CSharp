@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Request.Entities.Interfaces;
-using Domain.Request.ValueObjects;
+using Domain.Stock.ValueObjects;
 using Validations.Request;
 using Validations.Request.DomainValidation.Item;
 

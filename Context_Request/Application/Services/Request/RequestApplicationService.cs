@@ -22,7 +22,7 @@ namespace Application.Request.Services.Request
 
             var requestEntity = _requestServiceDependencies._requestDomainService.CreateRequest(clientId, requestItensEntities);
 
-            await _requestServiceDependencies._mediator.Send(new RequestCreateCommand(requestEntity));
+            await _requestServiceDependencies._eventBus.Send(new RequestCreateCommand(requestEntity));
         }
 
         public async Task<RequestEntityDTO> ReadRequestByIdAsync(int requestId)

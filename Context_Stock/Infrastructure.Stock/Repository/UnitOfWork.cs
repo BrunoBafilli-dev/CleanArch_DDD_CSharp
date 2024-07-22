@@ -5,17 +5,42 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain.Stock.Repositories;
 using Domain.Stock.Repositories.Item;
+using Infrastructure.Stock.Database.EntityFramework;
+using Infrastructure.Stock.Repository.Item;
 
 namespace Infrastructure.Stock.Repository
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork, IDisposable, IAsyncDisposable
     {
-        public IItemRepository ItemRepository { get; }
+        // Dependencies
+        private readonly ItemDataContext _itemDataContext;
 
+        // Private properties
+        private IItemRepository _itemRepository;
 
-        public Task CommitAsync()
+        // Public properties
+        public IItemRepository ItemRepository => _itemRepository ??= new ItemRepository(_itemDataContext);
+
+        // Constructor
+        public UnitOfWork(ItemDataContext itemDataContext)
         {
-            throw new NotImplementedException();
+            _itemDataContext = itemDataContext;
+        }
+
+        // Methods
+        public async Task CommitAsync()
+        {
+            await _itemDataContext.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            _itemDataContext.Dispose();
+        }
+
+        public async ValueTask DisposeAsync()
+        {
+            await _itemDataContext.DisposeAsync();
         }
     }
 }

@@ -1,20 +1,21 @@
-﻿using Domain.SharedKernel.Stock.Events.Events;
+﻿using Application.Stock.CQRS.Item.Commands;
+using Domain.SharedKernel.Stock.Events.Events;
 using MediatR;
 
 namespace Application.Stock.Events.Item.Handlers.UpdatedItemReducedStockEventHandlers
 {
     public class UpdatedItemReducedStockEventHandler : INotificationHandler<SKUpdatedStockDomainEvent>
     {
-        public Task Handle(SKUpdatedStockDomainEvent notification, CancellationToken cancellationToken)
+        private readonly IMediator _mediator;
+
+        public UpdatedItemReducedStockEventHandler(IMediator mediator)
         {
-            Console.WriteLine(notification.OcurredOn + " - " + notification.RequestId);
+            _mediator = mediator;
+        }
 
-            foreach (var updatedItemStockDomainEventMap in notification.SKItemStockUpdate)
-            {
-                Console.WriteLine($"itemID: {updatedItemStockDomainEventMap.ItemId} - Quantity: {updatedItemStockDomainEventMap.QuantityItem}");
-            }
-
-            return Task.CompletedTask;
+        public async Task Handle(SKUpdatedStockDomainEvent notification, CancellationToken cancellationToken)
+        {
+            await _mediator.Send(new ItemUpdateStockReduceCommand(notification));
         }
     }
 }

@@ -5,7 +5,7 @@ using MediatR;
 
 namespace Application.Stock.CQRS.Item.Handlers.Command
 {
-    public class ItemUpdateStockReduceCommandHandler
+    public class ItemUpdateStockReduceCommandHandler : IRequestHandler<ItemUpdateStockReduceCommand, ItemEntity>
     {
         private readonly IUnitOfWork _unitOfWork;
 

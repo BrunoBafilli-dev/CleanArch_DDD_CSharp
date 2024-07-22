@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F510CBA-C06C-434D-8081-0D0A11C99377}|StartCore\\Console.Core\\Console.StartCore.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\startcore\\console.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F510CBA-C06C-434D-8081-0D0A11C99377}|StartCore\\Console.Core\\Console.StartCore.csproj|solutionrelative:startcore\\console.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1151532C-1533-4331-82E0-DEE5D9174F61}|Context_Request\\Testes\\Testes.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\testes\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1151532C-1533-4331-82E0-DEE5D9174F61}|Context_Request\\Testes\\Testes.Request.csproj|solutionrelative:context_request\\testes\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\database\\entityframework\\mappings\\itementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\database\\entityframework\\mappings\\itementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\application.stock\\cqrs\\item\\handlers\\command\\itemupdatestockreducecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|solutionrelative:context_stock\\application.stock\\cqrs\\item\\handlers\\command\\itemupdatestockreducecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\application.stock\\cqrs\\item\\commands\\itemupdatestockreducecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|solutionrelative:context_stock\\application.stock\\cqrs\\item\\commands\\itemupdatestockreducecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\application.stock\\events\\item\\handlers\\updateditemreducedstockeventhandlers\\updateditemreducedstockeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|solutionrelative:context_stock\\application.stock\\events\\item\\handlers\\updateditemreducedstockeventhandlers\\updateditemreducedstockeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F5F47B-22AB-4A05-B90E-833D549D4A30}|Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\contextstockcontainerconfig\\containerdi\\contextstockcontainerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F5F47B-22AB-4A05-B90E-833D549D4A30}|Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj|solutionrelative:context_stock\\contextstockcontainerconfig\\containerdi\\contextstockcontainerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\domain.stock\\repositories\\interfaces\\iitemupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|solutionrelative:context_stock\\domain.stock\\repositories\\interfaces\\iitemupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ACC4E5F-E869-46E7-B25C-3B30EFAEF797}|Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\shared_kernel\\domain.sharedkernel\\stock\\events\\events\\skupdatedstockdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ACC4E5F-E869-46E7-B25C-3B30EFAEF797}|Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj|solutionrelative:shared_kernel\\domain.sharedkernel\\stock\\events\\events\\skupdatedstockdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,139 +21,52 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 201,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IItemUpdate.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Repositories\\Interfaces\\IItemUpdate.cs",
-              "RelativeDocumentMoniker": "Context_Stock\\Domain.Stock\\Repositories\\Interfaces\\IItemUpdate.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Repositories\\Interfaces\\IItemUpdate.cs",
-              "RelativeToolTip": "Context_Stock\\Domain.Stock\\Repositories\\Interfaces\\IItemUpdate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:33:50.675Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemUpdateStockReduceCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
-              "RelativeDocumentMoniker": "Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
-              "RelativeToolTip": "Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:23:22.104Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Repository\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Context_Stock\\Infrastructure.Stock\\Repository\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T15:15:37.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Program.cs",
-              "RelativeDocumentMoniker": "StartCore\\Console.Core\\Program.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Program.cs",
-              "RelativeToolTip": "StartCore\\Console.Core\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Title": "ItemEntityMap.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Database\\EntityFramework\\Mappings\\ItemEntityMap.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Database\\EntityFramework\\Mappings\\ItemEntityMap.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Database\\EntityFramework\\Mappings\\ItemEntityMap.cs",
+              "RelativeToolTip": "Context_Stock\\Infrastructure.Stock\\Database\\EntityFramework\\Mappings\\ItemEntityMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T15:13:59.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ContextStockContainerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\ContainerDI\\ContextStockContainerConfig.cs",
-              "RelativeDocumentMoniker": "Context_Stock\\ContextStockContainerConfig\\ContainerDI\\ContextStockContainerConfig.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\ContainerDI\\ContextStockContainerConfig.cs",
-              "RelativeToolTip": "Context_Stock\\ContextStockContainerConfig\\ContainerDI\\ContextStockContainerConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T15:12:33.399Z",
+              "WhenOpened": "2024-07-22T16:26:06.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Testes\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Context_Request\\Testes\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Testes\\UnitTest1.cs",
-              "RelativeToolTip": "Context_Request\\Testes\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAACDAAAA",
+              "Title": "ItemUpdateStockReduceCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
+              "RelativeToolTip": "Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T15:12:28.82Z",
+              "WhenOpened": "2024-07-22T16:24:43.086Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
               "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
               "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
               "RelativeToolTip": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:58:03.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SKUpdatedStockDomainEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
-              "RelativeDocumentMoniker": "Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
-              "RelativeToolTip": "Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:47:29.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdatedItemReducedStockEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\Events\\Item\\Handlers\\UpdatedItemReducedStockEventHandlers\\UpdatedItemReducedStockEventHandler.cs",
-              "RelativeDocumentMoniker": "Context_Stock\\Application.Stock\\Events\\Item\\Handlers\\UpdatedItemReducedStockEventHandlers\\UpdatedItemReducedStockEventHandler.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\Events\\Item\\Handlers\\UpdatedItemReducedStockEventHandlers\\UpdatedItemReducedStockEventHandler.cs",
-              "RelativeToolTip": "Context_Stock\\Application.Stock\\Events\\Item\\Handlers\\UpdatedItemReducedStockEventHandlers\\UpdatedItemReducedStockEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:27:34.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemUpdateStockReduceCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Commands\\ItemUpdateStockReduceCommand.cs",
-              "RelativeDocumentMoniker": "Context_Stock\\Application.Stock\\CQRS\\Item\\Commands\\ItemUpdateStockReduceCommand.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Commands\\ItemUpdateStockReduceCommand.cs",
-              "RelativeToolTip": "Context_Stock\\Application.Stock\\CQRS\\Item\\Commands\\ItemUpdateStockReduceCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:23:04.232Z",
+              "WhenOpened": "2024-07-22T15:58:24.615Z",
               "EditorCaption": ""
             }
           ]

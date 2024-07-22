@@ -1,7 +1,6 @@
-﻿using Validations;
-using Validations.Request;
+﻿using Validations.Request;
 
-namespace Domain.Request.ValueObjects
+namespace Domain.Stock.ValueObjects
 {
     public class PriceItem
     {

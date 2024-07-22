@@ -1173,7 +1173,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Application.Stock": "1.0.0"
+          "Application.Stock": "1.0.0",
+          "Infrastructure.Stock": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Infrastructure.IOC.Stock.dll": {}
@@ -1196,6 +1197,21 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.Request.dll": {}
+        }
+      },
+      "Infrastructure.Stock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Stock": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.Stock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Stock.dll": {}
         }
       },
       "Validations.Request/1.0.0": {
@@ -3098,6 +3114,11 @@
       "type": "project",
       "path": "../../Context_Request/Infrastructure/Infrastructure.Request.csproj",
       "msbuildProject": "../../Context_Request/Infrastructure/Infrastructure.Request.csproj"
+    },
+    "Infrastructure.Stock/1.0.0": {
+      "type": "project",
+      "path": "../../Context_Stock/Infrastructure.Stock/Infrastructure.Stock.csproj",
+      "msbuildProject": "../../Context_Stock/Infrastructure.Stock/Infrastructure.Stock.csproj"
     },
     "Validations.Request/1.0.0": {
       "type": "project",
