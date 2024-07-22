@@ -6,13 +6,13 @@ namespace Domain.SharedKernel.Stock.Events.Events
     public class SKUpdatedStockDomainEvent : ISKIDomainEvent, INotification
     {
         public int RequestId { get; private set; }
-        public List<SKItemStockUpdate> UpdatedItemsStockDomainEventMap { get; private set; }
+        public List<SKItemStockUpdate> SKItemStockUpdate { get; private set; }
         public DateTime OcurredOn { get; private set; }
 
-        public SKUpdatedStockDomainEvent(int requestId, List<SKItemStockUpdate> updatedItemsStockDomainEventMap)
+        public SKUpdatedStockDomainEvent(int requestId, List<SKItemStockUpdate> skItemStockUpdate)
         {
             RequestId = requestId;
-            UpdatedItemsStockDomainEventMap = updatedItemsStockDomainEventMap;
+            SKItemStockUpdate = skItemStockUpdate;
             OcurredOn = DateTime.Now;
         }
     }

@@ -1,4 +1,4 @@
-﻿using Domain.Stock;
+﻿using Application.Stock.Events.Item.Handlers.UpdatedItemReducedStockEventHandlers;
 using Microsoft.Extensions.DependencyInjection;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -10,7 +10,7 @@ namespace Infrastructure.IOC.Request.ContainerDI
         {
             services.AddMediatR(cfg =>
              {
-                 cfg.RegisterServicesFromAssembly(typeof(Receiver).Assembly);
+                 cfg.RegisterServicesFromAssembly(typeof(UpdatedItemReducedStockEventHandler).Assembly);
              });
         }
     }

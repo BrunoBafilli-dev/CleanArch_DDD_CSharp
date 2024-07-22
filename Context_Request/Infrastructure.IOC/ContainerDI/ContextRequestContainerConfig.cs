@@ -22,7 +22,7 @@ namespace Infrastructure.IOC.Request.ContainerDI
     {
         public static void AddContextRequestServices(IServiceCollection services) // Tornar público
         {
-            services.AddScoped<DataContext>();
+            services.AddScoped<RequestDataContext>();
             services.AddScoped<RequestApplicationServiceDependencies>();
             services.AddScoped<IRequestApplicationService, RequestApplicationService>();
             services.AddScoped<IRequestDomainService, RequestDomainService>();

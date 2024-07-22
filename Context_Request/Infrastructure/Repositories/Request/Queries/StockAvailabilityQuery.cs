@@ -7,14 +7,14 @@ namespace Infrastructure.Request.Repositories.Request.Queries
 {
     public class StockAvailabilityQuery
     {
-        public static async Task StockAvailabilityAndAdjustment(RequestEntity requestEntity, DataContext _dataContext)
+        public static async Task StockAvailabilityAndAdjustment(RequestEntity requestEntity, RequestDataContext _dataContext)
         {
             var items = await LoadItems(requestEntity, _dataContext);
 
             ValidateItems(requestEntity, items);
         }
 
-        private static async Task<Dictionary<int, ItemEntity>> LoadItems(RequestEntity requestEntity, DataContext dataContext)
+        private static async Task<Dictionary<int, ItemEntity>> LoadItems(RequestEntity requestEntity, RequestDataContext dataContext)
         {
             var itemIds = requestEntity.RequestItensEntities.Select(ie => ie.ItemId).ToList();
 

@@ -8,7 +8,7 @@ namespace Infrastructure.Request.Repositories.Item.Queries
 {
     public class StockQuantityReduceQuery
     {
-        public static async Task UpdateStock(List<RequestItemEntity> requestItemsEntities, DataContext dataContext)
+        public static async Task UpdateStock(List<RequestItemEntity> requestItemsEntities, RequestDataContext dataContext)
         {
             var itemIds = requestItemsEntities.Select(item => item.ItemId).ToList();
 
@@ -19,7 +19,7 @@ namespace Infrastructure.Request.Repositories.Item.Queries
             await ApplyStockChanges(requestItemsEntities, itemsDictionary, dataContext);
         }
 
-        private static void ValidateItemsExist(List<int> itemIds, DataContext dataContext)
+        private static void ValidateItemsExist(List<int> itemIds, RequestDataContext dataContext)
         {
             // Validação fictícia, adicione a implementação real aqui
             if (!dataContext.ItemEntities.Any(item => itemIds.Contains(item.Id)))
@@ -28,14 +28,14 @@ namespace Infrastructure.Request.Repositories.Item.Queries
             }
         }
 
-        private static async Task<Dictionary<int, ItemEntity>> FetchItems(List<int> itemIds, DataContext dataContext)
+        private static async Task<Dictionary<int, ItemEntity>> FetchItems(List<int> itemIds, RequestDataContext dataContext)
         {
             return await dataContext.ItemEntities
                 .Where(item => itemIds.Contains(item.Id))
                 .ToDictionaryAsync(item => item.Id);
         }
 
-        private static async Task ApplyStockChanges(List<RequestItemEntity> requestItemsEntities, Dictionary<int, ItemEntity> itemsDictionary, DataContext dataContext)
+        private static async Task ApplyStockChanges(List<RequestItemEntity> requestItemsEntities, Dictionary<int, ItemEntity> itemsDictionary, RequestDataContext dataContext)
         {
             foreach (var requestItem in requestItemsEntities)
             {

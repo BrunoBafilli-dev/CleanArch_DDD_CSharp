@@ -11,9 +11,9 @@ namespace Infrastructure.Request.Repositories.Request
 {
     public class RequestRepository : IRequestRepository
     {
-        private readonly DataContext _dataContext;
+        private readonly RequestDataContext _dataContext;
 
-        public RequestRepository(DataContext dataContext)
+        public RequestRepository(RequestDataContext dataContext)
         {
             _dataContext = dataContext;
         }

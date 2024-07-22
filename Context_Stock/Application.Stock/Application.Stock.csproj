@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared_Kernel\Domain.SharedKernel\Domain.SharedKernel.csproj" />
+    <ProjectReference Include="..\Domain.Stock\Domain.Stock.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,7 +10,7 @@ namespace Infrastructure.Request.Repositories
     public class UnitOfWork : IUnitOfWork, IDisposable, IAsyncDisposable
     {
         // Dependencies
-        private readonly DataContext _dataContext;
+        private readonly RequestDataContext _dataContext;
 
         // Private properties
         private IRequestRepository _requestRepository;
@@ -21,7 +21,7 @@ namespace Infrastructure.Request.Repositories
         public IItemRepository ItemRepository => _itemRepository ??= new ItemRepository(_dataContext);
 
         // Constructor
-        public UnitOfWork(DataContext dataContext)
+        public UnitOfWork(RequestDataContext dataContext)
         {
             _dataContext = dataContext;
         }

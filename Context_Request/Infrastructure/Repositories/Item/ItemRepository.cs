@@ -9,9 +9,9 @@ namespace Infrastructure.Request.Repositories.Item
 {
     public class ItemRepository : IItemRepository
     {
-        private readonly DataContext _dataContext;
+        private readonly RequestDataContext _dataContext;
 
-        public ItemRepository(DataContext dataContext)
+        public ItemRepository(RequestDataContext dataContext)
         {
             _dataContext = dataContext;
         }
