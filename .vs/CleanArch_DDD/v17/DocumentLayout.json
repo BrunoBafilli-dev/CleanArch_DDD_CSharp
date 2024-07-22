@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\database\\entityframework\\mappings\\itementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\database\\entityframework\\mappings\\itementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE0C5BB-F0D5-43EA-982F-65C0034EE721}|Context_Request\\Infrastructure\\Infrastructure.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\infrastructure\\database\\entityframework\\mappings\\requestitementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE0C5BB-F0D5-43EA-982F-65C0034EE721}|Context_Request\\Infrastructure\\Infrastructure.Request.csproj|solutionrelative:context_request\\infrastructure\\database\\entityframework\\mappings\\requestitementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE0C5BB-F0D5-43EA-982F-65C0034EE721}|Context_Request\\Infrastructure\\Infrastructure.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\infrastructure\\database\\entityframework\\mappings\\requestentitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE0C5BB-F0D5-43EA-982F-65C0034EE721}|Context_Request\\Infrastructure\\Infrastructure.Request.csproj|solutionrelative:context_request\\infrastructure\\database\\entityframework\\mappings\\requestentitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE0C5BB-F0D5-43EA-982F-65C0034EE721}|Context_Request\\Infrastructure\\Infrastructure.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\infrastructure\\database\\entityframework\\mappings\\cliententitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE0C5BB-F0D5-43EA-982F-65C0034EE721}|Context_Request\\Infrastructure\\Infrastructure.Request.csproj|solutionrelative:context_request\\infrastructure\\database\\entityframework\\mappings\\cliententitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\item\\queries\\itemrepositoryupdatequeriesfaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\item\\queries\\itemrepositoryupdatequeriesfaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\item\\queries\\updates\\updateitemstockasyncquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\item\\queries\\updates\\updateitemstockasyncquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\application.stock\\cqrs\\item\\handlers\\command\\itemupdatestockreducecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|solutionrelative:context_stock\\application.stock\\cqrs\\item\\handlers\\command\\itemupdatestockreducecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\repository\\item\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\infrastructure.stock\\database\\entityframework\\mappings\\itementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E6FEF-650E-4165-BF40-2FE3FD06D3FC}|Context_Stock\\Infrastructure.Stock\\Infrastructure.Stock.csproj|solutionrelative:context_stock\\infrastructure.stock\\database\\entityframework\\mappings\\itementitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,12 +41,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 201,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 252,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ItemEntityMap.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Database\\EntityFramework\\Mappings\\ItemEntityMap.cs",
               "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Database\\EntityFramework\\Mappings\\ItemEntityMap.cs",
@@ -39,34 +59,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ItemUpdateStockReduceCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
               "RelativeDocumentMoniker": "Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
               "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
               "RelativeToolTip": "Context_Stock\\Application.Stock\\CQRS\\Item\\Handlers\\Command\\ItemUpdateStockReduceCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T16:24:43.086Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 240,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
               "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
               "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
               "RelativeToolTip": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\ItemRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACwAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T15:58:24.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 189,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestItemEntityMap.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestItemEntityMap.cs",
+              "RelativeDocumentMoniker": "Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestItemEntityMap.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestItemEntityMap.cs",
+              "RelativeToolTip": "Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestItemEntityMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:07:50.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestEntityMap.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestEntityMap.cs",
+              "RelativeDocumentMoniker": "Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestEntityMap.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestEntityMap.cs",
+              "RelativeToolTip": "Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\RequestEntityMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:07:49.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientEntityMap.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\ClientEntityMap.cs",
+              "RelativeDocumentMoniker": "Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\ClientEntityMap.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\ClientEntityMap.cs",
+              "RelativeToolTip": "Context_Request\\Infrastructure\\Database\\EntityFramework\\Mappings\\ClientEntityMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:07:48.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemRepositoryUpdateQueriesFaced.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\ItemRepositoryUpdateQueriesFaced.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\ItemRepositoryUpdateQueriesFaced.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\ItemRepositoryUpdateQueriesFaced.cs",
+              "RelativeToolTip": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\ItemRepositoryUpdateQueriesFaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:36:35.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateItemStockAsyncQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\Updates\\UpdateItemStockAsyncQuery.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\Updates\\UpdateItemStockAsyncQuery.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\Updates\\UpdateItemStockAsyncQuery.cs",
+              "RelativeToolTip": "Context_Stock\\Infrastructure.Stock\\Repository\\Item\\Queries\\Updates\\UpdateItemStockAsyncQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:43:39.777Z",
               "EditorCaption": ""
             }
           ]

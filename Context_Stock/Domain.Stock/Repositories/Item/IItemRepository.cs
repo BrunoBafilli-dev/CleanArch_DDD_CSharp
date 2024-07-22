@@ -7,7 +7,7 @@ using Domain.Stock.Repositories.Interfaces;
 
 namespace Domain.Stock.Repositories.Item
 {
-    public interface IItemRepository : IItemCreate, IItemUpdate, IItemDelete, IItemRead
+    public interface IItemRepository : IItemUpdate
     {
     }
 }

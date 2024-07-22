@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContainerDI.StartCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c245d063dac59d3be62ff4a3617aa22c8b71c40e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4eee3ddaf24d3085b41b26cb1bca28e6ae2a4b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContainerDI.StartCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContainerDI.StartCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
