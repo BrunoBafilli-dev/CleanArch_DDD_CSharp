@@ -2,17 +2,17 @@
 using Application.Request.Events.EventBus;
 using Application.Request.Events.Request.Handlers.CreatedRequestEventHandlers;
 using Application.Request.Events.Request.Handlers.CreatePruductEvents;
-using Application.Request.Events.Tools;
 using Application.Request.Services.Request;
+using Application.Request.Tools.Notifiers;
 using Application.Services.Request.Interfaces;
+using Domain.Request.Repositories;
 using Domain.Request.Repositories.Request;
 using Domain.Request.Services;
 using Domain.Request.Services.Request.Interfaces;
-using Domain.Request.UnitOfWork;
 using Infrastructure.Request.Database.EntityFramework;
+using Infrastructure.Request.Repositories;
 using Infrastructure.Request.Repositories.Request;
-using Infrastructure.Request.Tools;
-using Infrastructure.Request.UnitOfWork;
+using Infrastructure.Request.Tools.Notifiers;
 using Microsoft.Extensions.DependencyInjection;
 using static System.Net.Mime.MediaTypeNames;
 

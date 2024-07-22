@@ -1116,7 +1116,8 @@
         "dependencies": {
           "Domain.SharedKernel": "1.0.0",
           "MediatR": "12.3.0",
-          "RabbitMQ.Client": "6.8.1"
+          "RabbitMQ.Client": "6.8.1",
+          "Validations.Request": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Domain.Stock.dll": {}
@@ -3082,8 +3083,8 @@
     },
     "Validations.Request/1.0.0": {
       "type": "project",
-      "path": "../../Context_Request/Validations/Validations.Request.csproj",
-      "msbuildProject": "../../Context_Request/Validations/Validations.Request.csproj"
+      "path": "../../Validations.Request/Validations.Request.csproj",
+      "msbuildProject": "../../Validations.Request/Validations.Request.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3100,9 +3101,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.Core.csproj",
-      "projectName": "ContainerDI.Core",
-      "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj",
+      "projectName": "ContainerDI.StartCore",
+      "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7I65RV7bdWM=",
+  "dgSpecHash": "ZReI5imPPoI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Console.Core.csproj",
+  "projectFilePath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Console.StartCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

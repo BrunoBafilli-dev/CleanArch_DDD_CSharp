@@ -1,0 +1,913 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Console.StartCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj",
+        "projectName": "Application.Request",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj",
+        "projectName": "Domain.Request",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj",
+        "projectName": "Infrastructure.IOC.Request",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj",
+        "projectName": "Infrastructure.Request",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\Infrastructure.Request.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Application\\Application.Request.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Domain\\Domain.Request.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj",
+        "projectName": "Validations.Request",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\Validations.Request.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Validations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj",
+        "projectName": "Infrastructure.IOC.Stock",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj",
+        "projectName": "Domain.Stock",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Domain.Stock.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj",
+        "projectName": "Domain.SharedKernel",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj",
+        "projectName": "Infrastructure.IOC.SharedKernel",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Infrastructure.IOC.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Console.StartCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Console.StartCore.csproj",
+        "projectName": "Console.StartCore",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\Console.StartCore.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\Console.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj",
+        "projectName": "ContainerDI.StartCore",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\ContainerDI.StartCore.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\StartCore\\ContainerDI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Infrastructure.IOC\\Infrastructure.IOC.Request.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\ContextStockContainerConfig\\Infrastructure.IOC.Stock.csproj"
+              },
+              "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Infrastructure.IOC.SharedKernel\\Infrastructure.IOC.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj",
+        "projectName": "Validations.Request",
+        "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

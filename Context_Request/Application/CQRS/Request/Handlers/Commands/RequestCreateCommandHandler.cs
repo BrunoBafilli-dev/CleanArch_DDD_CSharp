@@ -2,7 +2,7 @@
 using Application.Request.Events.EventBus;
 using Domain.Request.Entities.Request;
 using Domain.Request.Events.Request.Events;
-using Domain.Request.UnitOfWork;
+using Domain.Request.Repositories;
 using MediatR;
 
 namespace Application.Request.CQRS.Request.Handlers.Commands

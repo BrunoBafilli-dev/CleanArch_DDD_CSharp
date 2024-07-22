@@ -27,15 +27,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared_Kernel", "Shared_Ker
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StartCore", "StartCore", "{E60D9124-1B18-4B09-9D00-BBFCCACE88F9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerDI.Core", "StartCore\ContainerDI\ContainerDI.Core.csproj", "{588DC163-27A3-4C9D-A367-9FA50308DCE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerDI.StartCore", "StartCore\ContainerDI\ContainerDI.StartCore.csproj", "{588DC163-27A3-4C9D-A367-9FA50308DCE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Core", "StartCore\Console.Core\Console.Core.csproj", "{4F510CBA-C06C-434D-8081-0D0A11C99377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.StartCore", "StartCore\Console.Core\Console.StartCore.csproj", "{4F510CBA-C06C-434D-8081-0D0A11C99377}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.IOC.Stock", "Context_Stock\ContextStockContainerConfig\Infrastructure.IOC.Stock.csproj", "{08F5F47B-22AB-4A05-B90E-833D549D4A30}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.SharedKernel", "Shared_Kernel\Domain.SharedKernel\Domain.SharedKernel.csproj", "{0ACC4E5F-E869-46E7-B25C-3B30EFAEF797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.IOC.SharedKernel", "Shared_Kernel\Infrastructure.IOC.SharedKernel\Infrastructure.IOC.SharedKernel.csproj", "{FC8A622B-940D-4233-A4E4-0F8F3B6B7165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.IOC.SharedKernel", "Shared_Kernel\Infrastructure.IOC.SharedKernel\Infrastructure.IOC.SharedKernel.csproj", "{FC8A622B-940D-4233-A4E4-0F8F3B6B7165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validations.Request", "Validations.Request\Validations.Request.csproj", "{C10A7D28-625D-4909-A130-5F3C77EBE7F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Stock", "Context_Stock\Application.Stock\Application.Stock.csproj", "{1819E744-BB03-4BC8-B790-C587145F69F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,14 @@ Global
 		{FC8A622B-940D-4233-A4E4-0F8F3B6B7165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8A622B-940D-4233-A4E4-0F8F3B6B7165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8A622B-940D-4233-A4E4-0F8F3B6B7165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10A7D28-625D-4909-A130-5F3C77EBE7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10A7D28-625D-4909-A130-5F3C77EBE7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10A7D28-625D-4909-A130-5F3C77EBE7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10A7D28-625D-4909-A130-5F3C77EBE7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1819E744-BB03-4BC8-B790-C587145F69F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1819E744-BB03-4BC8-B790-C587145F69F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1819E744-BB03-4BC8-B790-C587145F69F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1819E744-BB03-4BC8-B790-C587145F69F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +125,8 @@ Global
 		{08F5F47B-22AB-4A05-B90E-833D549D4A30} = {E38E7644-9F4B-487A-9B9C-120819CFB790}
 		{0ACC4E5F-E869-46E7-B25C-3B30EFAEF797} = {3D265D7B-7EA1-40D2-944B-E48262BC5DB3}
 		{FC8A622B-940D-4233-A4E4-0F8F3B6B7165} = {3D265D7B-7EA1-40D2-944B-E48262BC5DB3}
+		{C10A7D28-625D-4909-A130-5F3C77EBE7F4} = {E38E7644-9F4B-487A-9B9C-120819CFB790}
+		{1819E744-BB03-4BC8-B790-C587145F69F1} = {E38E7644-9F4B-487A-9B9C-120819CFB790}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A377129E-D4F5-4269-976D-8ED0FEFC53A8}

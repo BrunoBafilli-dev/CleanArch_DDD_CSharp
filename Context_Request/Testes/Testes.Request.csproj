@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\StartCore\ContainerDI\ContainerDI.Core.csproj" />
+    <ProjectReference Include="..\..\StartCore\ContainerDI\ContainerDI.StartCore.csproj" />
     <ProjectReference Include="..\Application\Application.Request.csproj" />
     <ProjectReference Include="..\Domain\Domain.Request.csproj" />
     <ProjectReference Include="..\Infrastructure.IOC\Infrastructure.IOC.Request.csproj" />

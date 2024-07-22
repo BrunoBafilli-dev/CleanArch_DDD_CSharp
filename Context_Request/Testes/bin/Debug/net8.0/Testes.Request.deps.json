@@ -9,7 +9,7 @@
       "Testes.Request/1.0.0": {
         "dependencies": {
           "Application.Request": "1.0.0",
-          "ContainerDI.Core": "1.0.0",
+          "ContainerDI.StartCore": "1.0.0",
           "Domain.Request": "1.0.0",
           "FluentAssertions": "6.12.0",
           "Infrastructure.IOC.Request": "1.0.0",
@@ -1592,14 +1592,14 @@
           "Application.Request.dll": {}
         }
       },
-      "ContainerDI.Core/1.0.0": {
+      "ContainerDI.StartCore/1.0.0": {
         "dependencies": {
           "Infrastructure.IOC.Request": "1.0.0",
           "Infrastructure.IOC.SharedKernel": "1.0.0",
           "Infrastructure.IOC.Stock": "1.0.0"
         },
         "runtime": {
-          "ContainerDI.Core.dll": {}
+          "ContainerDI.StartCore.dll": {}
         }
       },
       "Domain.Request/1.0.0": {
@@ -2687,7 +2687,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ContainerDI.Core/1.0.0": {
+    "ContainerDI.StartCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

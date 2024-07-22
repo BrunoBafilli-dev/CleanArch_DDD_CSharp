@@ -1,6 +1,6 @@
 ﻿using Application.Request.CQRS.Item.Commands;
 using Domain.Request.Entities.Item;
-using Domain.Request.UnitOfWork;
+using Domain.Request.Repositories;
 using MediatR;
 
 namespace Application.Request.CQRS.Item.Handlers.Command

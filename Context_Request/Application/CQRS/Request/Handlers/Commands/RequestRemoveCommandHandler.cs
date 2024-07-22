@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Application.Request.CQRS.Request.Commands;
-using Application.Request.Events.Request.Handlers.CompensationRequestEventHandlers;
 using Domain.Request.Entities.Request;
-using Domain.Request.UnitOfWork;
 using MediatR;
+using Domain.Request.Repositories;
 
 namespace Application.Request.CQRS.Request.Handlers.Commands
 {

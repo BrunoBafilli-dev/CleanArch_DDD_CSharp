@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1151532C-1533-4331-82E0-DEE5D9174F61}|Context_Request\\Testes\\Testes.Request.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_request\\testes\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1151532C-1533-4331-82E0-DEE5D9174F61}|Context_Request\\Testes\\Testes.Request.csproj|solutionrelative:context_request\\testes\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\application.stock\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1819E744-BB03-4BC8-B790-C587145F69F1}|Context_Stock\\Application.Stock\\Application.Stock.csproj|solutionrelative:context_stock\\application.stock\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\domain.stock\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|solutionrelative:context_stock\\domain.stock\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ACC4E5F-E869-46E7-B25C-3B30EFAEF797}|Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\shared_kernel\\domain.sharedkernel\\stock\\events\\events\\skupdatedstockdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ACC4E5F-E869-46E7-B25C-3B30EFAEF797}|Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj|solutionrelative:shared_kernel\\domain.sharedkernel\\stock\\events\\events\\skupdatedstockdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\domain.stock\\entities\\item\\itementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|solutionrelative:context_stock\\domain.stock\\entities\\item\\itementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|c:\\users\\bruno\\documents\\github\\cleanarch_ddd_csharp\\context_stock\\domain.stock\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5457F5-6F66-4E80-8371-03FF50A07C51}|Context_Stock\\Domain.Stock\\Domain.Stock.csproj|solutionrelative:context_stock\\domain.stock\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Testes\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Context_Request\\Testes\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Request\\Testes\\UnitTest1.cs",
-              "RelativeToolTip": "Context_Request\\Testes\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\Class1.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Application.Stock\\Class1.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Application.Stock\\Class1.cs",
+              "RelativeToolTip": "Context_Stock\\Application.Stock\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T12:14:13.876Z",
+              "WhenOpened": "2024-07-22T13:34:32.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SKUpdatedStockDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
+              "RelativeDocumentMoniker": "Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
+              "RelativeToolTip": "Shared_Kernel\\Domain.SharedKernel\\Stock\\Events\\Events\\SKUpdatedStockDomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:31:32.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Receiver.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Receiver.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Domain.Stock\\Receiver.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Receiver.cs",
+              "RelativeToolTip": "Context_Stock\\Domain.Stock\\Receiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:31:23.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Repositories\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Domain.Stock\\Repositories\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Repositories\\IItemRepository.cs",
+              "RelativeToolTip": "Context_Stock\\Domain.Stock\\Repositories\\IItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:30:13.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Entities\\Item\\ItemEntity.cs",
+              "RelativeDocumentMoniker": "Context_Stock\\Domain.Stock\\Entities\\Item\\ItemEntity.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Context_Stock\\Domain.Stock\\Entities\\Item\\ItemEntity.cs",
+              "RelativeToolTip": "Context_Stock\\Domain.Stock\\Entities\\Item\\ItemEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:21:13.555Z",
               "EditorCaption": ""
             }
           ]

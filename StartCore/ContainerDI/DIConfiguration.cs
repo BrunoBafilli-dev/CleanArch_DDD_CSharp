@@ -1,24 +1,8 @@
-﻿using Application.DTOs;
-using Application.Request.Events.EventBus;
-using Application.Request.Events.Request.Handlers.CreatePruductEvents;
-using Application.Request.Events.Tools;
-using Application.Request.Services.Request;
-using Application.Services.Request.Interfaces;
-using Domain.Request.Repositories.Request;
-using Domain.Request.Services;
-using Domain.Request.Services.Request.Interfaces;
-using Domain.Request.UnitOfWork;
-using Infrastructure.IOC.Request.ContainerDI;
-using Infrastructure.Request.Database.EntityFramework;
-using Infrastructure.Request.Repositories.Request;
-using Infrastructure.Request.Tools;
-using Infrastructure.Request.UnitOfWork;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using Domain.SharedKernel.Stock.Events.EventBus;
+﻿using Infrastructure.IOC.Request.ContainerDI;
 using Infrastructure.IOC.SharedKernel.ContainerDI;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace ContainerDI.Core
+namespace ContainerDI.StartCore
 {
     public class DIConfiguration
     {

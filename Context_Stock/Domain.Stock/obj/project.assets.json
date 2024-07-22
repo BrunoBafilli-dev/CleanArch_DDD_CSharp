@@ -102,6 +102,16 @@
         "runtime": {
           "bin/placeholder/Domain.SharedKernel.dll": {}
         }
+      },
+      "Validations.Request/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Validations.Request.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Validations.Request.dll": {}
+        }
       }
     }
   },
@@ -242,13 +252,19 @@
       "type": "project",
       "path": "../../Shared_Kernel/Domain.SharedKernel/Domain.SharedKernel.csproj",
       "msbuildProject": "../../Shared_Kernel/Domain.SharedKernel/Domain.SharedKernel.csproj"
+    },
+    "Validations.Request/1.0.0": {
+      "type": "project",
+      "path": "../../Validations.Request/Validations.Request.csproj",
+      "msbuildProject": "../../Validations.Request/Validations.Request.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Domain.SharedKernel >= 1.0.0",
       "MediatR >= 12.3.0",
-      "RabbitMQ.Client >= 6.8.1"
+      "RabbitMQ.Client >= 6.8.1",
+      "Validations.Request >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -286,6 +302,9 @@
           "projectReferences": {
             "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj": {
               "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Shared_Kernel\\Domain.SharedKernel\\Domain.SharedKernel.csproj"
+            },
+            "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Documents\\GitHub\\CleanArch_DDD_CSharp\\Validations.Request\\Validations.Request.csproj"
             }
           }
         }
