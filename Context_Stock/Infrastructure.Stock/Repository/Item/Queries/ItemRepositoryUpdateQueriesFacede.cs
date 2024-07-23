@@ -4,18 +4,16 @@ using Infrastructure.Stock.Repository.Item.Queries.Updates;
 
 namespace Infrastructure.Stock.Repository.Item.Queries
 {
-    public class ItemRepositoryUpdateQueriesFaced
+    public class ItemRepositoryUpdateQueriesFacede
     {
         private readonly ItemDataContext _itemDataContext;
 
-        public ItemRepositoryUpdateQueriesFaced(ItemDataContext itemDataContext)
+        public ItemRepositoryUpdateQueriesFacede(ItemDataContext itemDataContext)
         {
             _itemDataContext = itemDataContext;
         }
 
         public async Task UpdateItemStockQueryAsync(int itemId, int quantityItem)
-        {
-            await UpdateItemStockAsyncQuery.UpdateItemsStockAsync(itemId, quantityItem, _itemDataContext);
-        }
+            => await UpdateItemStockAsyncQuery.UpdateItemsStockAsync(itemId, quantityItem, _itemDataContext);
     }
 }

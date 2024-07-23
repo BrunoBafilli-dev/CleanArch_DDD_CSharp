@@ -8,22 +8,16 @@ namespace Infrastructure.Stock.Repository.Item
     public class ItemRepository : IItemRepository
     {
         private readonly ItemDataContext _itemDataContext;
-        private readonly ItemRepositoryUpdateQueriesFaced _itemRepositoryUpdateQueriesFaced;
+
+        private readonly ItemRepositoryUpdateQueriesFacede _itemRepositoryUpdateQueriesFaced;
 
         public ItemRepository(ItemDataContext itemDataContext)
         {
             _itemDataContext = itemDataContext;
-            _itemRepositoryUpdateQueriesFaced = new ItemRepositoryUpdateQueriesFaced(_itemDataContext);;
-        }
-
-        public Task UpdateItemAsync(ItemEntity itemEntity)
-        {
-            throw new NotImplementedException();
+            _itemRepositoryUpdateQueriesFaced = new ItemRepositoryUpdateQueriesFacede(_itemDataContext);;
         }
 
         public async Task UpdateItemsStockAsync(int itemId, int quantityItem)
-        {
-            await _itemRepositoryUpdateQueriesFaced.UpdateItemStockQueryAsync(itemId, quantityItem);
-        }
+            => await _itemRepositoryUpdateQueriesFaced.UpdateItemStockQueryAsync(itemId, quantityItem);
     }
 }

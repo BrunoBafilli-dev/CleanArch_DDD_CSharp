@@ -6,14 +6,7 @@ namespace Infrastructure.Request.Repositories.Request.Queries.QueriesFacade.Crea
 {
     public class CreateQueriesService
     {
-        private readonly RequestDataContext _requestDataContext;
-
-        public CreateQueriesService(RequestDataContext requestDataContext)
-        {
-            _requestDataContext = requestDataContext;
-        }
-
-        public async Task CreateRequestAsync(RequestEntity requestEntity)
+        public static void CreateRequestAsync(RequestEntity requestEntity, RequestDataContext _requestDataContext)
         {
             _requestDataContext.RequestEntities.Add(requestEntity);
         }

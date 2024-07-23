@@ -10,16 +10,9 @@ using Validations.Request;
 
 namespace Infrastructure.Request.Repositories.Request.Queries.QueriesFacade.ReadQueries
 {
-    public class ReadQueriesService
+    public class ReadQueriesRequestByIdAsync
     {
-        private readonly RequestDataContext _requestDataContext;
-
-        public ReadQueriesService(RequestDataContext requestDataContext)
-        {
-            _requestDataContext = requestDataContext;
-        }
-
-        public async Task<RequestEntity> ReadRequestByIdAsync(int id)
+        public static async Task<RequestEntity> ExecuteAsync(int id, RequestDataContext _requestDataContext)
         {
             var requestEntity = await _requestDataContext.RequestEntities
                 .Include(r => r.RequestItensEntities)

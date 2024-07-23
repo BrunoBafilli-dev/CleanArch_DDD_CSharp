@@ -12,13 +12,11 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
     public class RequestCreateCommandHandler : IRequestHandler<RequestCreateCommand, Unit>
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IEventBus _eventBus;
         private readonly IUpdateReduceStockSaga _updateReduceStockSaga;
 
-        public RequestCreateCommandHandler(IUnitOfWork unitOfWork, IEventBus eventBus, IUpdateReduceStockSaga updateReduceStockSaga)
+        public RequestCreateCommandHandler(IUnitOfWork unitOfWork, IUpdateReduceStockSaga updateReduceStockSaga)
         {
             _unitOfWork = unitOfWork;
-            _eventBus = eventBus;
             _updateReduceStockSaga = updateReduceStockSaga;
         }
 

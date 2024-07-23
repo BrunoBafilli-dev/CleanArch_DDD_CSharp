@@ -9,16 +9,9 @@ using Validations.Request;
 
 namespace Infrastructure.Request.Repositories.Request.Queries.QueriesFacade.DeleteQueries
 {
-    public class DeleteQueriesService
+    public class DeleteQueriesServiceAsync
     {
-        private readonly RequestDataContext _requestDataContext;
-
-        public DeleteQueriesService(RequestDataContext requestDataContext)
-        {
-            _requestDataContext = requestDataContext;
-        }
-
-        public async Task DeleteRequestAsync(int id)
+        public static async Task ExecuteAsync(int id, RequestDataContext _requestDataContext)
         {
             var requestEntity = await _requestDataContext.RequestEntities.FindAsync(id);
 
