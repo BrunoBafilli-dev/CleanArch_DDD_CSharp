@@ -2,14 +2,13 @@
 using Domain.Stock.Repositories.Item;
 using Infrastructure.Stock.Database.EntityFramework;
 using Infrastructure.Stock.Repository.Item.Queries;
-using Infrastructure.Stock.Repository.Item.Queries.Interfaces;
 
 namespace Infrastructure.Stock.Repository.Item
 {
     public class ItemRepository : IItemRepository
     {
         private readonly ItemDataContext _itemDataContext;
-        private readonly IItemRepositoryUpdateQueriesFaced _itemRepositoryUpdateQueriesFaced;
+        private readonly ItemRepositoryUpdateQueriesFaced _itemRepositoryUpdateQueriesFaced;
 
         public ItemRepository(ItemDataContext itemDataContext)
         {

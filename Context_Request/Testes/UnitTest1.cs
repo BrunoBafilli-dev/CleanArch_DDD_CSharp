@@ -26,13 +26,13 @@ namespace Testes.Request
                 new RequestItemEntityDTO() { Name = "Produto B", ItemId = 2, PriceItem = new PriceItem(15.75M), QuantityItem = new QuantityItem(2) },
                 new RequestItemEntityDTO() { Name = "Produto C", ItemId = 3, PriceItem = new PriceItem(35.00M), QuantityItem = new QuantityItem(3) }
             };
-            await _requestApplicationService.CreateRequestAsync(1, requestItemEntity);
+            await _requestApplicationService.CreateRequestAsync(4, requestItemEntity);
         }
 
         [Fact]
         public async Task ReadRequestByIdAsync()
         {
-            var request = await _requestApplicationService.ReadRequestByIdAsync(5);
+            var request = await _requestApplicationService.ReadRequestByIdAsync(1);
 
             request.RequestItensEntities.Count.Should().BeGreaterThan(0);
         }

@@ -2,7 +2,7 @@
 using Domain.Request.Events.Request.Events;
 using MediatR;
 
-namespace Application.Request.Events.Request.Handlers.CreatePruductEvents
+namespace Application.Request.Events.Request.Handlers.CreatedRequestDomainEventHandlers
 {
     public class CreatedRequestEmailNotificationEventHandler : INotificationHandler<CreatedRequestDomainEvent>
     {

@@ -1,6 +1,7 @@
 ﻿using Application.Request.CQRS.Request.Commands;
 using Application.Request.Events.EventBus;
 using Application.Request.Events.Request.Events;
+using Application.Request.Events.Request.Saga;
 using Domain.Request.Entities.Request;
 using Domain.Request.Events.Request.Events;
 using Domain.Request.Repositories;
@@ -12,11 +13,13 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IEventBus _eventBus;
+        private readonly IUpdateReduceStockSaga _updateReduceStockSaga;
 
-        public RequestCreateCommandHandler(IUnitOfWork unitOfWork, IEventBus eventBus)
+        public RequestCreateCommandHandler(IUnitOfWork unitOfWork, IEventBus eventBus, IUpdateReduceStockSaga updateReduceStockSaga)
         {
             _unitOfWork = unitOfWork;
             _eventBus = eventBus;
+            _updateReduceStockSaga = updateReduceStockSaga;
         }
 
         public async Task<Unit> Handle(RequestCreateCommand request, CancellationToken cancellationToken)
@@ -25,35 +28,9 @@ namespace Application.Request.CQRS.Request.Handlers.Commands
 
             await _unitOfWork.CommitAsync();
 
-            await TryUpdateStockContext(request.RequestEntity);
+            await _updateReduceStockSaga.UpdateStockOrCompensate(request.RequestEntity);
 
             return Unit.Value;
-        }
-
-        public async Task TryUpdateStockContext(RequestEntity requestEntity)
-        {
-            try
-            {
-                await RequestCreatedDispatchEvents(requestEntity);
-            }
-            catch (Exception e)
-            {
-                await CompensationEventDispatchEvent(requestEntity);
-                throw;
-            }
-        }
-
-        public async Task RequestCreatedDispatchEvents(RequestEntity requestEntity)
-        {
-            foreach (var @event in requestEntity.RequestCreatedDomainEvents)
-            {
-                await _eventBus.Publish(@event);
-            }
-        }
-
-        public async Task CompensationEventDispatchEvent(RequestEntity requestEntity)
-        {
-            await _eventBus.Publish(new CompensationRequestRemovedEvent(requestEntity.Id));
         }
     }
 }
